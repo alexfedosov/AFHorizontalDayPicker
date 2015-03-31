@@ -36,6 +36,14 @@
 @property (nonatomic, strong) UIFont *dayNumberInactiveFont;
 @property (nonatomic, strong) UIFont *dayNumberSelectedFont;
 
+@property (nonatomic, strong) UIColor *dayNameActiveColor;
+@property (nonatomic, strong) UIColor *dayNameInactiveColor;
+@property (nonatomic, strong) UIColor *dayNameSelectedColor;
+
+@property (nonatomic, strong) UIFont *dayNameActiveFont;
+@property (nonatomic, strong) UIFont *dayNameInactiveFont;
+@property (nonatomic, strong) UIFont *dayNameSelectedFont;
+
 @property (nonatomic, strong) UIColor *backgroundActiveColor;
 @property (nonatomic, strong) UIColor *backgroundInactiveColor;
 @property (nonatomic, strong) UIColor *backgroundSelectedColor;

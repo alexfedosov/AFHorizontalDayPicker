@@ -136,9 +136,16 @@
         dayNumber.textColor = (_dayNumberActiveColor)?:[UIColor blackColor];
         dayNumber.textAlignment = NSTextAlignmentCenter;
         dayNumber.text = [NSString stringWithFormat:@"%@", @([[self dateForIndexPath:indexPath] mt_dayOfMonth])];
-        
         cell.dayNumber = dayNumber;
         [cell.contentView addSubview:dayNumber];
+        
+        UILabel *dayName = [[UILabel alloc] initWithFrame:CGRectMake(.0f, cell.contentView.frame.size.height - 20.0f, cell.contentView.frame.size.width, 20.0f)];
+        dayName.font = (_dayNameActiveFont)?:[UIFont fontWithName:@"HelveticaNeue" size:12.0f];
+        dayName.textColor = (_dayNameActiveColor)?:[UIColor blackColor];
+        dayName.textAlignment = NSTextAlignmentCenter;
+        dayName.text = [NSString stringWithFormat:@"%@", [[self dateForIndexPath:indexPath] mt_stringFromDateWithFormat:@"EEE" localized:YES]];
+        cell.dayName = dayName;
+        [cell.contentView addSubview:dayName];
         
         cell.contentView.backgroundColor = (_backgroundActiveColor)?:[UIColor whiteColor];
     }
@@ -153,6 +160,7 @@
     AFDayCell *cell = (AFDayCell *)[collectionView cellForItemAtIndexPath:indexPath];
     cell.contentView.backgroundColor = (_backgroundSelectedColor)?:[UIColor colorWithRed:20.0f/255.0f green:128.0f/255.0f blue:255.0f/255.0f alpha:1.0f];
     cell.dayNumber.textColor = (_dayNumberSelectedColor)?:[UIColor whiteColor];
+    cell.dayName.textColor = (_dayNumberSelectedColor)?:[UIColor whiteColor];
     
     self.selectedDate = [self dateForIndexPath:indexPath];
 }
@@ -162,6 +170,7 @@
     AFDayCell *cell = (AFDayCell *)[collectionView cellForItemAtIndexPath:indexPath];
     cell.contentView.backgroundColor = (_backgroundActiveColor)?:[UIColor whiteColor];
     cell.dayNumber.textColor = (_dayNumberSelectedColor)?:[UIColor blackColor];
+    cell.dayName.textColor = (_dayNumberSelectedColor)?:[UIColor blackColor];
 }
 
 #pragma mark - collectionView flow layout -

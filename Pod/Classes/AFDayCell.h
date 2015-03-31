@@ -11,6 +11,7 @@
 @interface AFDayCell : UICollectionViewCell
 
 @property (nonatomic, strong) UILabel *dayNumber;
+@property (nonatomic, strong) UILabel *dayName;
 
 @property (nonatomic, strong) NSDate *date;
 

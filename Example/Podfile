@@ -1,0 +1,11 @@
+source 'https://github.com/CocoaPods/Specs.git'
+
+target 'AFHorizontalDayPicker', :exclusive => true do
+  pod "AFHorizontalDayPicker", :path => "../"
+end
+
+target 'Tests', :exclusive => true do
+  pod "AFHorizontalDayPicker", :path => "../"
+
+  
+end

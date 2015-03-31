@@ -1,0 +1,17 @@
+PODS:
+  - AFHorizontalDayPicker (0.1.0):
+    - MTDates (= 1.0.0)
+  - MTDates (1.0.0)
+
+DEPENDENCIES:
+  - AFHorizontalDayPicker (from `../`)
+
+EXTERNAL SOURCES:
+  AFHorizontalDayPicker:
+    :path: ../
+
+SPEC CHECKSUMS:
+  AFHorizontalDayPicker: de53ee7ee57b605539228bddaa0225aa3d83baaf
+  MTDates: 1dbf92ecda49c0fc42bfd692bda3c471069b57ba
+
+COCOAPODS: 0.35.0

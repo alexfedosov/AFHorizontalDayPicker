@@ -6,6 +6,9 @@
 [![Platform](https://img.shields.io/cocoapods/p/AFHorizontalDayPicker.svg?style=flat)](http://cocoapods.org/pods/AFHorizontalDayPicker)
 
 [![](https://raw.github.com/alexfedosov/AFHorizontalDayPicker/master/Screens/2.png)](https://raw.github.com/alexfedosov/AFHorizontalDayPicker/master/Screens/2.png)
+[![](https://raw.github.com/alexfedosov/AFHorizontalDayPicker/master/Screens/3.png)](https://raw.github.com/alexfedosov/AFHorizontalDayPicker/master/Screens/3.png)
+[![](https://raw.github.com/alexfedosov/AFHorizontalDayPicker/master/Screens/4.png)](https://raw.github.com/alexfedosov/AFHorizontalDayPicker/master/Screens/4.png)
+[![](https://raw.github.com/alexfedosov/AFHorizontalDayPicker/master/Screens/5.png)](https://raw.github.com/alexfedosov/AFHorizontalDayPicker/master/Screens/5.png)
 
 ## Installation
 

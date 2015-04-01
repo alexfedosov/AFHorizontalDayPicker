@@ -10,13 +10,7 @@
 Pod::Spec.new do |s|
   s.name             = "AFHorizontalDayPicker"
   s.version          = "0.1.0"
-  s.summary          = "A short description of AFHorizontalDayPicker."
-  s.description      = <<-DESC
-                       An optional longer description of AFHorizontalDayPicker
-
-                       * Markdown format.
-                       * Don't worry about the indent, we strip it!
-                       DESC
+  s.summary          = "AFHorizontalDayPicker is clean and simple day picker based on UICollectionView"
   s.homepage         = "https://github.com/alexfedosov/AFHorizontalDayPicker"
   # s.screenshots     = "www.example.com/screenshots_1", "www.example.com/screenshots_2"
   s.license          = 'MIT'

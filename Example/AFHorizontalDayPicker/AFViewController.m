@@ -21,19 +21,16 @@
     [super viewDidLoad];
 	
     
-    AFHorizontalDayPicker *picker = [[AFHorizontalDayPicker alloc] initWithFrame:CGRectMake(0, 40, self.view.frame.size.width, 80.0f)];
+    AFHorizontalDayPicker *picker = [[AFHorizontalDayPicker alloc] initWithFrame:CGRectMake(0, 40, self.view.frame.size.width, 60.0f)];
     picker.delegate = self;
-    picker.startDate = [[NSDate date] mt_dateDaysBefore:12];
-    picker.endDate = [[NSDate date] mt_dateDaysAfter:16];
-    picker.selectedDate = [NSDate date];
+    picker.endDate = [[NSDate date] mt_dateDaysAfter:14];
+    [picker selectTodayAnimated:NO];
     
     [self.view addSubview:picker];
-    
-    [picker selectTodayAnimated:NO];
 }
 
 - (CGFloat)horizontalDayPicker:(AFHorizontalDayPicker *)picker widthForItemWithDate:(NSDate *)date{
-    return 80.0f;
+    return 60.0f;
 }
 
 - (void)horizontalDayPicker:(AFHorizontalDayPicker *)picker didSelectDate:(NSDate *)date{

@@ -153,14 +153,14 @@
     }else{
         [cell.contentView.subviews makeObjectsPerformSelector:@selector(removeFromSuperview)];
         
-        UILabel *dayNumber = [[UILabel alloc] initWithFrame:cell.contentView.bounds];
+        UILabel *dayNumber = [[UILabel alloc] initWithFrame:CGRectMake(.0f, .0f, cell.contentView.frame.size.width, cell.contentView.frame.size.height/3*2)];
         
         dayNumber.textAlignment = NSTextAlignmentCenter;
         dayNumber.text = [NSString stringWithFormat:@"%@", @([[self dateForIndexPath:indexPath] mt_dayOfMonth])];
         cell.dayNumber = dayNumber;
         [cell.contentView addSubview:dayNumber];
         
-        UILabel *dayName = [[UILabel alloc] initWithFrame:CGRectMake(.0f, cell.contentView.frame.size.height - 20.0f, cell.contentView.frame.size.width, 20.0f)];
+        UILabel *dayName = [[UILabel alloc] initWithFrame:CGRectMake(.0f, cell.contentView.frame.size.height/3*2 - cell.contentView.frame.size.height/6, cell.contentView.frame.size.width, cell.contentView.frame.size.height/3)];
         dayName.textAlignment = NSTextAlignmentCenter;
         dayName.text = [NSString stringWithFormat:@"%@", [[self dateForIndexPath:indexPath] mt_stringFromDateWithFormat:@"EEE" localized:YES]];
         cell.dayName = dayName;

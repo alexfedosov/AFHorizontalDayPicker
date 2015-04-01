@@ -21,7 +21,7 @@ pod "AFHorizontalDayPicker"
 
 ## Usage
 
-Install library via as it describe above, then add propery
+Install library via cocoapods as it describe above, then add property
 
 ``` objective-c
 @property (strong, nonatomic) AFHorizontalDayPicker *picker;

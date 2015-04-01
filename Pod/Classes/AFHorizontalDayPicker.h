@@ -14,6 +14,7 @@
 @protocol AFHorizontalDayPickerDelegate <NSObject>
 @required
 - (CGFloat)horizontalDayPicker:(AFHorizontalDayPicker *)picker widthForItemWithDate:(NSDate *)date;
+- (void)horizontalDayPicker:(AFHorizontalDayPicker *)picker didSelectDate:(NSDate *)date;
 
 @optional
 - (AFDayCell *)horizontalDayPicker:(AFHorizontalDayPicker *)picker requestCustomizedCellFromCell:(AFDayCell*)cell;
@@ -27,6 +28,9 @@
 @property (nonatomic, strong) NSDate *startDate;
 @property (nonatomic, strong) NSDate *endDate;
 @property (nonatomic, strong) NSDate *selectedDate;
+
+@property (nonatomic, strong) NSDate *firstActiveDate;
+@property (nonatomic, strong) NSDate *lastActiveDate;
 
 @property (nonatomic, strong) UIColor *dayNumberActiveColor;
 @property (nonatomic, strong) UIColor *dayNumberInactiveColor;
@@ -47,5 +51,8 @@
 @property (nonatomic, strong) UIColor *backgroundActiveColor;
 @property (nonatomic, strong) UIColor *backgroundInactiveColor;
 @property (nonatomic, strong) UIColor *backgroundSelectedColor;
+
+- (void)selectDate:(NSDate *)date animated:(BOOL)animated;
+- (void)selectTodayAnimated:(BOOL)animated;
 
 @end

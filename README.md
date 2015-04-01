@@ -32,15 +32,15 @@ Init then setup picker using start and end dates:
 ``` objective-c
 - (void)viewDidLoad
 {
-[super viewDidLoad];
+    [super viewDidLoad];
 
-AFHorizontalDayPicker *picker = [[AFHorizontalDayPicker alloc] initWithFrame:CGRectMake(0, 40, self.view.frame.size.width, 60.0f)];
-picker.delegate = self;
-picker.startDate = [[NSDate date] mt_dateDaysBefore:7];
-picker.endDate = [[NSDate date] mt_dateDaysAfter:14];
-[picker selectTodayAnimated:NO];
+    AFHorizontalDayPicker *picker = [[AFHorizontalDayPicker alloc] initWithFrame:CGRectMake(0, 40, self.view.frame.size.width, 60.0f)];
+    picker.delegate = self;
+    picker.startDate = [[NSDate date] mt_dateDaysBefore:7];
+    picker.endDate = [[NSDate date] mt_dateDaysAfter:14];
+    [picker selectTodayAnimated:NO];
 
-[self.view addSubview:picker];
+    [self.view addSubview:picker];
 }
 ```
 
@@ -49,11 +49,11 @@ Implement the required delegate method to be notified when a new day item is sel
 ``` objective-c
 
 - (CGFloat)horizontalDayPicker:(AFHorizontalDayPicker *)picker widthForItemWithDate:(NSDate *)date{
-return 60.0f;
+    return 60.0f;
 }
 
 - (void)horizontalDayPicker:(AFHorizontalDayPicker *)picker didSelectDate:(NSDate *)date{
-NSLog(@"selected date %@", date);
+    NSLog(@"selected date %@", date);
 }
 
 ```

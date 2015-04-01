@@ -167,26 +167,57 @@
         [cell.contentView addSubview:dayName];
         
         if (![self isActiveDateAtIndexPath:indexPath]) {
-            dayNumber.font = (_dayNumberInactiveFont)?:[UIFont fontWithName:@"HelveticaNeue-Thin" size:25.0f];
-            dayNumber.textColor = (_dayNumberInactiveColor)?:[UIColor grayColor];
-            
-            dayName.font = (_dayNameInactiveFont)?:[UIFont fontWithName:@"HelveticaNeue" size:12.0f];
-            dayName.textColor = (_dayNameInactiveColor)?:[UIColor grayColor];
-            
-            cell.contentView.backgroundColor = (_backgroundInactiveColor)?:[UIColor whiteColor];
+            [self setInactiveAppearanceWithCell:cell];
         }else{
-            dayNumber.font = (_dayNumberActiveFont)?:[UIFont fontWithName:@"HelveticaNeue-Thin" size:25.0f];
-            dayNumber.textColor = (_dayNumberActiveColor)?:[UIColor blackColor];
             
-            dayName.font = (_dayNameActiveFont)?:[UIFont fontWithName:@"HelveticaNeue" size:12.0f];
-            dayName.textColor = (_dayNameActiveColor)?:[UIColor blackColor];
+            NSIndexPath *selectedIndexPath = [collectionView.indexPathsForSelectedItems firstObject];
             
-            cell.contentView.backgroundColor = (_backgroundActiveColor)?:[UIColor whiteColor];
+            if (selectedIndexPath && indexPath.row == selectedIndexPath.row) {
+                [self setSelectedAppearanceWithCell:cell];
+            }else{
+                [self setActiveAppearanceWithCell:cell];
+            }
+            
         }
         
     }
     
     return cell;
+}
+
+- (void)setActiveAppearanceWithCell:(AFDayCell *)cell{
+    
+    cell.dayNumber.font = (_dayNumberActiveFont)?:[UIFont fontWithName:@"HelveticaNeue-Thin" size:25.0f];
+    cell.dayNumber.textColor = (_dayNumberActiveColor)?:[UIColor blackColor];
+    
+    cell.dayName.font = (_dayNameActiveFont)?:[UIFont fontWithName:@"HelveticaNeue" size:12.0f];
+    cell.dayName.textColor = (_dayNameActiveColor)?:[UIColor blackColor];
+    
+    cell.contentView.backgroundColor = (_backgroundActiveColor)?:[UIColor whiteColor];
+    
+}
+
+- (void)setInactiveAppearanceWithCell:(AFDayCell *)cell{
+    
+    cell.dayNumber.font = (_dayNumberInactiveFont)?:[UIFont fontWithName:@"HelveticaNeue-Thin" size:25.0f];
+    cell.dayNumber.textColor = (_dayNumberInactiveColor)?:[UIColor grayColor];
+    
+    cell.dayName.font = (_dayNameInactiveFont)?:[UIFont fontWithName:@"HelveticaNeue" size:12.0f];
+    cell.dayName.textColor = (_dayNameInactiveColor)?:[UIColor grayColor];
+    
+    cell.contentView.backgroundColor = (_backgroundInactiveColor)?:[UIColor whiteColor];
+}
+
+- (void)setSelectedAppearanceWithCell:(AFDayCell *)cell{
+    
+    cell.dayNumber.font = (_dayNumberSelectedFont)?:[UIFont fontWithName:@"HelveticaNeue-Thin" size:25.0f];
+    cell.dayNumber.textColor = (_dayNumberSelectedColor)?:[UIColor whiteColor];
+    
+    cell.dayName.font = (_dayNameSelectedFont)?:[UIFont fontWithName:@"HelveticaNeue" size:12.0f];
+    cell.dayName.textColor = (_dayNameSelectedColor)?:[UIColor whiteColor];
+    
+    cell.contentView.backgroundColor = (_backgroundSelectedColor)?:[UIColor colorWithRed:20.0f/255.0f green:128.0f/255.0f blue:255.0f/255.0f alpha:1.0f];
+
 }
 
 #pragma mark - collectionView delegate -
@@ -198,9 +229,7 @@
     }
     
     AFDayCell *cell = (AFDayCell *)[collectionView cellForItemAtIndexPath:indexPath];
-    cell.contentView.backgroundColor = (_backgroundSelectedColor)?:[UIColor colorWithRed:20.0f/255.0f green:128.0f/255.0f blue:255.0f/255.0f alpha:1.0f];
-    cell.dayNumber.textColor = (_dayNumberSelectedColor)?:[UIColor whiteColor];
-    cell.dayName.textColor = (_dayNumberSelectedColor)?:[UIColor whiteColor];
+    [self setSelectedAppearanceWithCell:cell];
     
     self.selectedDate = [self dateForIndexPath:indexPath];
     
@@ -212,9 +241,13 @@
 - (void)collectionView:(UICollectionView *)collectionView didDeselectItemAtIndexPath:(NSIndexPath *)indexPath{
     
     AFDayCell *cell = (AFDayCell *)[collectionView cellForItemAtIndexPath:indexPath];
-    cell.contentView.backgroundColor = (_backgroundActiveColor)?:[UIColor whiteColor];
-    cell.dayNumber.textColor = (_dayNumberSelectedColor)?:[UIColor blackColor];
-    cell.dayName.textColor = (_dayNumberSelectedColor)?:[UIColor blackColor];
+    
+    if ([self isActiveDateAtIndexPath:indexPath]) {
+        [self setActiveAppearanceWithCell:cell];
+    }else{
+        [self setInactiveAppearanceWithCell:cell];
+    }
+    
 }
 
 #pragma mark - collectionView flow layout -
@@ -236,7 +269,12 @@
     NSIndexPath *indexPath = [self indexPathForDate:date];
     
     if (indexPath) {
-        [self.daysCollectionView selectItemAtIndexPath:indexPath animated:animated scrollPosition:UICollectionViewScrollPositionCenteredHorizontally];
+        [self.daysCollectionView selectItemAtIndexPath:indexPath
+                                              animated:animated
+                                        scrollPosition:UICollectionViewScrollPositionCenteredHorizontally];
+        [self.daysCollectionView scrollToItemAtIndexPath:indexPath atScrollPosition:UICollectionViewScrollPositionCenteredHorizontally
+                                                animated:animated];
+        [self collectionView:self.daysCollectionView didSelectItemAtIndexPath:indexPath];
     }
 }
 

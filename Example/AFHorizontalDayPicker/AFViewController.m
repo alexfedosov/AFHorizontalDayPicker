@@ -28,6 +28,8 @@
     picker.selectedDate = [NSDate date];
     
     [self.view addSubview:picker];
+    
+    [picker selectTodayAnimated:NO];
 }
 
 - (CGFloat)horizontalDayPicker:(AFHorizontalDayPicker *)picker widthForItemWithDate:(NSDate *)date{

@@ -52,6 +52,11 @@
 @property (nonatomic, strong) UIColor *backgroundInactiveColor;
 @property (nonatomic, strong) UIColor *backgroundSelectedColor;
 
+@property (nonatomic, assign) BOOL showSeparatorsBetweenCells;
+@property (nonatomic, strong) UIColor *separatorActiveColor;
+@property (nonatomic, strong) UIColor *separatorInactiveColor;
+@property (nonatomic, strong) UIColor *separatorSelectedColor;
+
 - (void)selectDate:(NSDate *)date animated:(BOOL)animated;
 - (void)selectTodayAnimated:(BOOL)animated;
 

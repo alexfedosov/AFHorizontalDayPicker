@@ -1,2714 +1,1205 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
-<plist version="1.0">
-<dict>
-	<key>archiveVersion</key>
-	<string>1</string>
-	<key>classes</key>
-	<dict/>
-	<key>objectVersion</key>
-	<string>46</string>
-	<key>objects</key>
-	<dict>
-		<key>0401D8223CE8976D06F399C4</key>
-		<dict>
-			<key>buildConfigurations</key>
-			<array>
-				<string>7483096F027E1576C78D51C2</string>
-				<string>1462B6F96ED887EE53ECFB9E</string>
-			</array>
-			<key>defaultConfigurationIsVisible</key>
-			<string>0</string>
-			<key>defaultConfigurationName</key>
-			<string>Release</string>
-			<key>isa</key>
-			<string>XCConfigurationList</string>
-		</dict>
-		<key>067B1CA3328E82B6E13F9FE2</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>text</string>
-			<key>name</key>
-			<string>Podfile</string>
-			<key>path</key>
-			<string>../Podfile</string>
-			<key>sourceTree</key>
-			<string>SOURCE_ROOT</string>
-			<key>xcLanguageSpecificationIdentifier</key>
-			<string>xcode.lang.ruby</string>
-		</dict>
-		<key>073966DBD5DA4165741348BA</key>
-		<dict>
-			<key>buildActionMask</key>
-			<string>2147483647</string>
-			<key>files</key>
-			<array>
-				<string>2BAF7FE3030C3B343C159C81</string>
-			</array>
-			<key>isa</key>
-			<string>PBXFrameworksBuildPhase</string>
-			<key>runOnlyForDeploymentPostprocessing</key>
-			<string>0</string>
-		</dict>
-		<key>0794AC78BD423F360BBA17AF</key>
-		<dict>
-			<key>buildConfigurations</key>
-			<array>
-				<string>34E155B34AC5AD0783D1C5C6</string>
-				<string>74F2B8EBC954C09ADEBC88A8</string>
-			</array>
-			<key>defaultConfigurationIsVisible</key>
-			<string>0</string>
-			<key>defaultConfigurationName</key>
-			<string>Release</string>
-			<key>isa</key>
-			<string>XCConfigurationList</string>
-		</dict>
-		<key>09F880F57EB47E1EBF6A0062</key>
-		<dict>
-			<key>baseConfigurationReference</key>
-			<string>3B03EDDC4FCAAAC0F376E514</string>
-			<key>buildSettings</key>
-			<dict>
-				<key>ALWAYS_SEARCH_USER_PATHS</key>
-				<string>NO</string>
-				<key>COPY_PHASE_STRIP</key>
-				<string>NO</string>
-				<key>DSTROOT</key>
-				<string>/tmp/xcodeproj.dst</string>
-				<key>GCC_DYNAMIC_NO_PIC</key>
-				<string>NO</string>
-				<key>GCC_OPTIMIZATION_LEVEL</key>
-				<string>0</string>
-				<key>GCC_PRECOMPILE_PREFIX_HEADER</key>
-				<string>YES</string>
-				<key>GCC_PREFIX_HEADER</key>
-				<string>Target Support Files/Pods-AFHorizontalDayPicker-AFHorizontalDayPicker/Pods-AFHorizontalDayPicker-AFHorizontalDayPicker-prefix.pch</string>
-				<key>GCC_PREPROCESSOR_DEFINITIONS</key>
-				<array>
-					<string>DEBUG=1</string>
-					<string>$(inherited)</string>
-				</array>
-				<key>GCC_SYMBOLS_PRIVATE_EXTERN</key>
-				<string>NO</string>
-				<key>INSTALL_PATH</key>
-				<string>$(BUILT_PRODUCTS_DIR)</string>
-				<key>IPHONEOS_DEPLOYMENT_TARGET</key>
-				<string>7.1</string>
-				<key>OTHER_LDFLAGS</key>
-				<string></string>
-				<key>OTHER_LIBTOOLFLAGS</key>
-				<string></string>
-				<key>PRODUCT_NAME</key>
-				<string>$(TARGET_NAME)</string>
-				<key>PUBLIC_HEADERS_FOLDER_PATH</key>
-				<string>$(TARGET_NAME)</string>
-				<key>SDKROOT</key>
-				<string>iphoneos</string>
-				<key>SKIP_INSTALL</key>
-				<string>YES</string>
-			</dict>
-			<key>isa</key>
-			<string>XCBuildConfiguration</string>
-			<key>name</key>
-			<string>Debug</string>
-		</dict>
-		<key>0AB6A609214BF8FC7DB1DD90</key>
-		<dict>
-			<key>buildActionMask</key>
-			<string>2147483647</string>
-			<key>files</key>
-			<array/>
-			<key>isa</key>
-			<string>PBXResourcesBuildPhase</string>
-			<key>runOnlyForDeploymentPostprocessing</key>
-			<string>0</string>
-		</dict>
-		<key>0CB9A26FC32513D80ADD4670</key>
-		<dict>
-			<key>buildActionMask</key>
-			<string>2147483647</string>
-			<key>files</key>
-			<array>
-				<string>8B901D3238A7DE9C01EB6D20</string>
-			</array>
-			<key>isa</key>
-			<string>PBXFrameworksBuildPhase</string>
-			<key>runOnlyForDeploymentPostprocessing</key>
-			<string>0</string>
-		</dict>
-		<key>0E15DE14A70757AF223C575F</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
-			<key>name</key>
-			<string>NSDateComponents+MTDates.h</string>
-			<key>path</key>
-			<string>MTDates/NSDateComponents+MTDates.h</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>0E74389877C104A84F89D436</key>
-		<dict>
-			<key>buildConfigurationList</key>
-			<string>47A6ED6697453982772D7D95</string>
-			<key>buildPhases</key>
-			<array>
-				<string>EEE77AFA5CBBE43F4BB950EE</string>
-				<string>D09D7BD53640E4741C56C7D4</string>
-				<string>91E1259F5884844394899CDC</string>
-			</array>
-			<key>buildRules</key>
-			<array/>
-			<key>dependencies</key>
-			<array>
-				<string>3E099690C804C11B8F8FF95C</string>
-				<string>CE8951E153424984AD3D27B0</string>
-			</array>
-			<key>isa</key>
-			<string>PBXNativeTarget</string>
-			<key>name</key>
-			<string>Pods-AFHorizontalDayPicker-AFHorizontalDayPicker</string>
-			<key>productName</key>
-			<string>Pods-AFHorizontalDayPicker-AFHorizontalDayPicker</string>
-			<key>productReference</key>
-			<string>EA37083ACC7E5D6C9DE67D76</string>
-			<key>productType</key>
-			<string>com.apple.product-type.library.static</string>
-		</dict>
-		<key>0F611148FCC9D6EA53F5FE4E</key>
-		<dict>
-			<key>baseConfigurationReference</key>
-			<string>E27565526A4F978D6B0E96D6</string>
-			<key>buildSettings</key>
-			<dict>
-				<key>ALWAYS_SEARCH_USER_PATHS</key>
-				<string>NO</string>
-				<key>COPY_PHASE_STRIP</key>
-				<string>YES</string>
-				<key>DSTROOT</key>
-				<string>/tmp/xcodeproj.dst</string>
-				<key>GCC_PRECOMPILE_PREFIX_HEADER</key>
-				<string>YES</string>
-				<key>GCC_PREFIX_HEADER</key>
-				<string>Target Support Files/Pods-Tests-AFHorizontalDayPicker/Pods-Tests-AFHorizontalDayPicker-prefix.pch</string>
-				<key>INSTALL_PATH</key>
-				<string>$(BUILT_PRODUCTS_DIR)</string>
-				<key>IPHONEOS_DEPLOYMENT_TARGET</key>
-				<string>7.1</string>
-				<key>OTHER_CFLAGS</key>
-				<array>
-					<string>-DNS_BLOCK_ASSERTIONS=1</string>
-					<string>$(inherited)</string>
-				</array>
-				<key>OTHER_CPLUSPLUSFLAGS</key>
-				<array>
-					<string>-DNS_BLOCK_ASSERTIONS=1</string>
-					<string>$(inherited)</string>
-				</array>
-				<key>OTHER_LDFLAGS</key>
-				<string></string>
-				<key>OTHER_LIBTOOLFLAGS</key>
-				<string></string>
-				<key>PRODUCT_NAME</key>
-				<string>$(TARGET_NAME)</string>
-				<key>PUBLIC_HEADERS_FOLDER_PATH</key>
-				<string>$(TARGET_NAME)</string>
-				<key>SDKROOT</key>
-				<string>iphoneos</string>
-				<key>SKIP_INSTALL</key>
-				<string>YES</string>
-				<key>VALIDATE_PRODUCT</key>
-				<string>YES</string>
-			</dict>
-			<key>isa</key>
-			<string>XCBuildConfiguration</string>
-			<key>name</key>
-			<string>Release</string>
-		</dict>
-		<key>12781C3647C03026D3831B6B</key>
-		<dict>
-			<key>fileRef</key>
-			<string>EEF653CD93D1108478E85A0C</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>129EEF443E52BEED36F8DC07</key>
-		<dict>
-			<key>fileRef</key>
-			<string>7C0FD99D5CA4A852EF4DFB9C</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>139B4208E7AAFDA718068915</key>
-		<dict>
-			<key>buildConfigurationList</key>
-			<string>0794AC78BD423F360BBA17AF</string>
-			<key>buildPhases</key>
-			<array>
-				<string>1E7DEE147548ACBAA8F79388</string>
-				<string>9B984AC5200D187F42400B0F</string>
-			</array>
-			<key>buildRules</key>
-			<array/>
-			<key>dependencies</key>
-			<array>
-				<string>366A7FF86AFF9A64045778E9</string>
-				<string>B02CB27B368D7771AB74B792</string>
-			</array>
-			<key>isa</key>
-			<string>PBXNativeTarget</string>
-			<key>name</key>
-			<string>Pods-Tests</string>
-			<key>productName</key>
-			<string>Pods-Tests</string>
-			<key>productReference</key>
-			<string>5F03A5E7625C70EC74C22768</string>
-			<key>productType</key>
-			<string>com.apple.product-type.library.static</string>
-		</dict>
-		<key>1462B6F96ED887EE53ECFB9E</key>
-		<dict>
-			<key>baseConfigurationReference</key>
-			<string>EE94B3D57EC3CEA388FD03BA</string>
-			<key>buildSettings</key>
-			<dict>
-				<key>ALWAYS_SEARCH_USER_PATHS</key>
-				<string>NO</string>
-				<key>COPY_PHASE_STRIP</key>
-				<string>YES</string>
-				<key>DSTROOT</key>
-				<string>/tmp/xcodeproj.dst</string>
-				<key>GCC_PRECOMPILE_PREFIX_HEADER</key>
-				<string>YES</string>
-				<key>GCC_PREFIX_HEADER</key>
-				<string>Target Support Files/Pods-Tests-MTDates/Pods-Tests-MTDates-prefix.pch</string>
-				<key>INSTALL_PATH</key>
-				<string>$(BUILT_PRODUCTS_DIR)</string>
-				<key>IPHONEOS_DEPLOYMENT_TARGET</key>
-				<string>7.1</string>
-				<key>OTHER_CFLAGS</key>
-				<array>
-					<string>-DNS_BLOCK_ASSERTIONS=1</string>
-					<string>$(inherited)</string>
-				</array>
-				<key>OTHER_CPLUSPLUSFLAGS</key>
-				<array>
-					<string>-DNS_BLOCK_ASSERTIONS=1</string>
-					<string>$(inherited)</string>
-				</array>
-				<key>OTHER_LDFLAGS</key>
-				<string></string>
-				<key>OTHER_LIBTOOLFLAGS</key>
-				<string></string>
-				<key>PRODUCT_NAME</key>
-				<string>$(TARGET_NAME)</string>
-				<key>PUBLIC_HEADERS_FOLDER_PATH</key>
-				<string>$(TARGET_NAME)</string>
-				<key>SDKROOT</key>
-				<string>iphoneos</string>
-				<key>SKIP_INSTALL</key>
-				<string>YES</string>
-				<key>VALIDATE_PRODUCT</key>
-				<string>YES</string>
-			</dict>
-			<key>isa</key>
-			<string>XCBuildConfiguration</string>
-			<key>name</key>
-			<string>Release</string>
-		</dict>
-		<key>14834703E2AE343E6AC070DB</key>
-		<dict>
-			<key>buildSettings</key>
-			<dict>
-				<key>PRODUCT_NAME</key>
-				<string>$(TARGET_NAME)</string>
-				<key>SDKROOT</key>
-				<string>iphoneos</string>
-				<key>SKIP_INSTALL</key>
-				<string>YES</string>
-				<key>WRAPPER_EXTENSION</key>
-				<string>bundle</string>
-			</dict>
-			<key>isa</key>
-			<string>XCBuildConfiguration</string>
-			<key>name</key>
-			<string>Release</string>
-		</dict>
-		<key>14ACA6B4F2D8CCF17E45FD68</key>
-		<dict>
-			<key>isa</key>
-			<string>PBXTargetDependency</string>
-			<key>name</key>
-			<string>Pods-AFHorizontalDayPicker-MTDates</string>
-			<key>target</key>
-			<string>76C42B4DC1A52C40DEE02D01</string>
-			<key>targetProxy</key>
-			<string>514B8FCFC23ADDBEFD090749</string>
-		</dict>
-		<key>1B04A13334584CFF608455EC</key>
-		<dict>
-			<key>explicitFileType</key>
-			<string>archive.ar</string>
-			<key>includeInIndex</key>
-			<string>0</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>path</key>
-			<string>libPods-AFHorizontalDayPicker-MTDates.a</string>
-			<key>sourceTree</key>
-			<string>BUILT_PRODUCTS_DIR</string>
-		</dict>
-		<key>1C072D3278E81440BDE4CA7B</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>FCD919B35185E3DD9E03AF0C</string>
-				<string>DDD6C3CD781D866BFB219ABA</string>
-				<string>B8192094EC012959867B5713</string>
-				<string>45858F7B16DC588D25154910</string>
-				<string>6FAB7BA9CA115B8E859BE978</string>
-				<string>32E96CC1C145929E29EC01F8</string>
-				<string>EDF99212E1389F6D6D756CB2</string>
-			</array>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>name</key>
-			<string>Pods-Tests</string>
-			<key>path</key>
-			<string>Target Support Files/Pods-Tests</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>1E7DEE147548ACBAA8F79388</key>
-		<dict>
-			<key>buildActionMask</key>
-			<string>2147483647</string>
-			<key>files</key>
-			<array>
-				<string>BA1F25FCC65A733FF3AA1A7E</string>
-			</array>
-			<key>isa</key>
-			<string>PBXSourcesBuildPhase</string>
-			<key>runOnlyForDeploymentPostprocessing</key>
-			<string>0</string>
-		</dict>
-		<key>1FF252A090F952483C0E70F8</key>
-		<dict>
-			<key>fileRef</key>
-			<string>B4E8B352DE46585A9EBE0FC1</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>24FA13082CA0090F8B5B1D4E</key>
-		<dict>
-			<key>buildActionMask</key>
-			<string>2147483647</string>
-			<key>files</key>
-			<array>
-				<string>12781C3647C03026D3831B6B</string>
-				<string>A350ACDDF7784EDAC58250CD</string>
-				<string>B56BD4CCAC371AF3337C12D6</string>
-			</array>
-			<key>isa</key>
-			<string>PBXHeadersBuildPhase</string>
-			<key>runOnlyForDeploymentPostprocessing</key>
-			<string>0</string>
-		</dict>
-		<key>26D39E7B23DA64273303D024</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
-			<key>name</key>
-			<string>Pods-Tests-AFHorizontalDayPicker-prefix.pch</string>
-			<key>path</key>
-			<string>../Pods-Tests-AFHorizontalDayPicker/Pods-Tests-AFHorizontalDayPicker-prefix.pch</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>2B46FB39D9385E4F5590E425</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
-			<key>path</key>
-			<string>Pods-AFHorizontalDayPicker-environment.h</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>2BAF7FE3030C3B343C159C81</key>
-		<dict>
-			<key>fileRef</key>
-			<string>A75BFD9AB77CC96FC02ABB0B</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>2F698CDECE61632951E8CD87</key>
-		<dict>
-			<key>fileRef</key>
-			<string>0E15DE14A70757AF223C575F</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>30D20F7CCD8A82FC2CC47EBA</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.objc</string>
-			<key>name</key>
-			<string>Pods-Tests-MTDates-dummy.m</string>
-			<key>path</key>
-			<string>../Pods-Tests-MTDates/Pods-Tests-MTDates-dummy.m</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>329AE8865F90E9E428596FE6</key>
-		<dict>
-			<key>fileRef</key>
-			<string>7366AC7811815E4E03CE3A9A</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>32BF755A468B8C8E8F01427D</key>
-		<dict>
-			<key>buildActionMask</key>
-			<string>2147483647</string>
-			<key>files</key>
-			<array>
-				<string>BA66E1126830EA065B55B8C1</string>
-				<string>705AF9D34DFBC223DF501E9E</string>
-			</array>
-			<key>isa</key>
-			<string>PBXFrameworksBuildPhase</string>
-			<key>runOnlyForDeploymentPostprocessing</key>
-			<string>0</string>
-		</dict>
-		<key>32E96CC1C145929E29EC01F8</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>text.xcconfig</string>
-			<key>path</key>
-			<string>Pods-Tests.debug.xcconfig</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>3410719F71ECDB37499B11FA</key>
-		<dict>
-			<key>fileRef</key>
-			<string>EEF653CD93D1108478E85A0C</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>34E155B34AC5AD0783D1C5C6</key>
-		<dict>
-			<key>baseConfigurationReference</key>
-			<string>32E96CC1C145929E29EC01F8</string>
-			<key>buildSettings</key>
-			<dict>
-				<key>ALWAYS_SEARCH_USER_PATHS</key>
-				<string>NO</string>
-				<key>COPY_PHASE_STRIP</key>
-				<string>NO</string>
-				<key>DSTROOT</key>
-				<string>/tmp/xcodeproj.dst</string>
-				<key>GCC_DYNAMIC_NO_PIC</key>
-				<string>NO</string>
-				<key>GCC_OPTIMIZATION_LEVEL</key>
-				<string>0</string>
-				<key>GCC_PRECOMPILE_PREFIX_HEADER</key>
-				<string>YES</string>
-				<key>GCC_PREPROCESSOR_DEFINITIONS</key>
-				<array>
-					<string>DEBUG=1</string>
-					<string>$(inherited)</string>
-				</array>
-				<key>GCC_SYMBOLS_PRIVATE_EXTERN</key>
-				<string>NO</string>
-				<key>INSTALL_PATH</key>
-				<string>$(BUILT_PRODUCTS_DIR)</string>
-				<key>IPHONEOS_DEPLOYMENT_TARGET</key>
-				<string>7.1</string>
-				<key>OTHER_LDFLAGS</key>
-				<string></string>
-				<key>OTHER_LIBTOOLFLAGS</key>
-				<string></string>
-				<key>PRODUCT_NAME</key>
-				<string>$(TARGET_NAME)</string>
-				<key>PUBLIC_HEADERS_FOLDER_PATH</key>
-				<string>$(TARGET_NAME)</string>
-				<key>SDKROOT</key>
-				<string>iphoneos</string>
-				<key>SKIP_INSTALL</key>
-				<string>YES</string>
-			</dict>
-			<key>isa</key>
-			<string>XCBuildConfiguration</string>
-			<key>name</key>
-			<string>Debug</string>
-		</dict>
-		<key>366A7FF86AFF9A64045778E9</key>
-		<dict>
-			<key>isa</key>
-			<string>PBXTargetDependency</string>
-			<key>name</key>
-			<string>Pods-Tests-AFHorizontalDayPicker</string>
-			<key>target</key>
-			<string>759DCFE0F3FAFF983B25FD29</string>
-			<key>targetProxy</key>
-			<string>9EA85DEDB143CA824A63BDF4</string>
-		</dict>
-		<key>3A0D9227A93514F954CBB31D</key>
-		<dict>
-			<key>buildConfigurationList</key>
-			<string>8FF7D025164962084E3B2F59</string>
-			<key>buildPhases</key>
-			<array>
-				<string>F7E616E5DBB08342FADE168E</string>
-				<string>0CB9A26FC32513D80ADD4670</string>
-			</array>
-			<key>buildRules</key>
-			<array/>
-			<key>dependencies</key>
-			<array>
-				<string>6C4A1A2E43A46F2A4ED054CA</string>
-				<string>14ACA6B4F2D8CCF17E45FD68</string>
-			</array>
-			<key>isa</key>
-			<string>PBXNativeTarget</string>
-			<key>name</key>
-			<string>Pods-AFHorizontalDayPicker</string>
-			<key>productName</key>
-			<string>Pods-AFHorizontalDayPicker</string>
-			<key>productReference</key>
-			<string>973C948BD105230EB7996974</string>
-			<key>productType</key>
-			<string>com.apple.product-type.library.static</string>
-		</dict>
-		<key>3B03EDDC4FCAAAC0F376E514</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>text.xcconfig</string>
-			<key>path</key>
-			<string>Pods-AFHorizontalDayPicker-AFHorizontalDayPicker-Private.xcconfig</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>3E099690C804C11B8F8FF95C</key>
-		<dict>
-			<key>isa</key>
-			<string>PBXTargetDependency</string>
-			<key>name</key>
-			<string>AFHorizontalDayPicker</string>
-			<key>target</key>
-			<string>C7C44D59510E133205938A6E</string>
-			<key>targetProxy</key>
-			<string>6A7F9365360E98C501D40A3A</string>
-		</dict>
-		<key>404FD464C9BA949FA6478C65</key>
-		<dict>
-			<key>fileRef</key>
-			<string>0E15DE14A70757AF223C575F</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>4111E11370BF520F7F077351</key>
-		<dict>
-			<key>containerPortal</key>
-			<string>75BE14406EC9EA698EADC742</string>
-			<key>isa</key>
-			<string>PBXContainerItemProxy</string>
-			<key>proxyType</key>
-			<string>1</string>
-			<key>remoteGlobalIDString</key>
-			<string>76C42B4DC1A52C40DEE02D01</string>
-			<key>remoteInfo</key>
-			<string>Pods-AFHorizontalDayPicker-MTDates</string>
-		</dict>
-		<key>41AF5F076D1EA0577ED7D2C3</key>
-		<dict>
-			<key>fileRef</key>
-			<string>4BAD16F0C98805B1435BF9D1</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>450667FE6E63D12075F6B3DF</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>B4E8B352DE46585A9EBE0FC1</string>
-				<string>FDB1850E566CC3C9ABA718A8</string>
-				<string>0E15DE14A70757AF223C575F</string>
-				<string>CC0F4CB7CC8902FDA45F41FD</string>
-				<string>FDAE6CAACB1E24C8D405A263</string>
-			</array>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>name</key>
-			<string>MTDates</string>
-			<key>path</key>
-			<string>MTDates</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>45803DBA6820753089F6B4D2</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>text.script.sh</string>
-			<key>path</key>
-			<string>Pods-AFHorizontalDayPicker-resources.sh</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>45858F7B16DC588D25154910</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
-			<key>path</key>
-			<string>Pods-Tests-environment.h</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>4768C51E32FF071C3EC78AA7</key>
-		<dict>
-			<key>fileRef</key>
-			<string>FFB91744ABE9B90285ACF03C</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>4771636EB87F97A182FCF711</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>450667FE6E63D12075F6B3DF</string>
-			</array>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>name</key>
-			<string>Pods</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>47A6ED6697453982772D7D95</key>
-		<dict>
-			<key>buildConfigurations</key>
-			<array>
-				<string>09F880F57EB47E1EBF6A0062</string>
-				<string>49870B2040035CDE4E6AAAA6</string>
-			</array>
-			<key>defaultConfigurationIsVisible</key>
-			<string>0</string>
-			<key>defaultConfigurationName</key>
-			<string>Release</string>
-			<key>isa</key>
-			<string>XCConfigurationList</string>
-		</dict>
-		<key>49870B2040035CDE4E6AAAA6</key>
-		<dict>
-			<key>baseConfigurationReference</key>
-			<string>3B03EDDC4FCAAAC0F376E514</string>
-			<key>buildSettings</key>
-			<dict>
-				<key>ALWAYS_SEARCH_USER_PATHS</key>
-				<string>NO</string>
-				<key>COPY_PHASE_STRIP</key>
-				<string>YES</string>
-				<key>DSTROOT</key>
-				<string>/tmp/xcodeproj.dst</string>
-				<key>GCC_PRECOMPILE_PREFIX_HEADER</key>
-				<string>YES</string>
-				<key>GCC_PREFIX_HEADER</key>
-				<string>Target Support Files/Pods-AFHorizontalDayPicker-AFHorizontalDayPicker/Pods-AFHorizontalDayPicker-AFHorizontalDayPicker-prefix.pch</string>
-				<key>INSTALL_PATH</key>
-				<string>$(BUILT_PRODUCTS_DIR)</string>
-				<key>IPHONEOS_DEPLOYMENT_TARGET</key>
-				<string>7.1</string>
-				<key>OTHER_CFLAGS</key>
-				<array>
-					<string>-DNS_BLOCK_ASSERTIONS=1</string>
-					<string>$(inherited)</string>
-				</array>
-				<key>OTHER_CPLUSPLUSFLAGS</key>
-				<array>
-					<string>-DNS_BLOCK_ASSERTIONS=1</string>
-					<string>$(inherited)</string>
-				</array>
-				<key>OTHER_LDFLAGS</key>
-				<string></string>
-				<key>OTHER_LIBTOOLFLAGS</key>
-				<string></string>
-				<key>PRODUCT_NAME</key>
-				<string>$(TARGET_NAME)</string>
-				<key>PUBLIC_HEADERS_FOLDER_PATH</key>
-				<string>$(TARGET_NAME)</string>
-				<key>SDKROOT</key>
-				<string>iphoneos</string>
-				<key>SKIP_INSTALL</key>
-				<string>YES</string>
-				<key>VALIDATE_PRODUCT</key>
-				<string>YES</string>
-			</dict>
-			<key>isa</key>
-			<string>XCBuildConfiguration</string>
-			<key>name</key>
-			<string>Release</string>
-		</dict>
-		<key>49F8A8A650101DBF488C3457</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
-			<key>path</key>
-			<string>Pods-AFHorizontalDayPicker-MTDates-prefix.pch</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>4A223A4DC1A6038F5B10AAC2</key>
-		<dict>
-			<key>buildSettings</key>
-			<dict>
-				<key>PRODUCT_NAME</key>
-				<string>$(TARGET_NAME)</string>
-				<key>SDKROOT</key>
-				<string>iphoneos</string>
-				<key>SKIP_INSTALL</key>
-				<string>YES</string>
-				<key>WRAPPER_EXTENSION</key>
-				<string>bundle</string>
-			</dict>
-			<key>isa</key>
-			<string>XCBuildConfiguration</string>
-			<key>name</key>
-			<string>Debug</string>
-		</dict>
-		<key>4ABC0388A518844B64DC7650</key>
-		<dict>
-			<key>isa</key>
-			<string>PBXTargetDependency</string>
-			<key>name</key>
-			<string>AFHorizontalDayPicker</string>
-			<key>target</key>
-			<string>C7C44D59510E133205938A6E</string>
-			<key>targetProxy</key>
-			<string>A46D1DAF3A79DDD873C95E32</string>
-		</dict>
-		<key>4BAD16F0C98805B1435BF9D1</key>
-		<dict>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>wrapper.framework</string>
-			<key>name</key>
-			<string>UIKit.framework</string>
-			<key>path</key>
-			<string>Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/System/Library/Frameworks/UIKit.framework</string>
-			<key>sourceTree</key>
-			<string>DEVELOPER_DIR</string>
-		</dict>
-		<key>4CFB4F2E9E4E35785F49645C</key>
-		<dict>
-			<key>buildConfigurationList</key>
-			<string>0401D8223CE8976D06F399C4</string>
-			<key>buildPhases</key>
-			<array>
-				<string>A09CC429F208A109B1C1F684</string>
-				<string>641959B6A3AA7431ED492997</string>
-				<string>AB428958B999B72E4886CB7C</string>
-			</array>
-			<key>buildRules</key>
-			<array/>
-			<key>dependencies</key>
-			<array/>
-			<key>isa</key>
-			<string>PBXNativeTarget</string>
-			<key>name</key>
-			<string>Pods-Tests-MTDates</string>
-			<key>productName</key>
-			<string>Pods-Tests-MTDates</string>
-			<key>productReference</key>
-			<string>C95417DA623E4EB0B59463FA</string>
-			<key>productType</key>
-			<string>com.apple.product-type.library.static</string>
-		</dict>
-		<key>5117E5AD50A1E24DFD78273D</key>
-		<dict>
-			<key>buildConfigurations</key>
-			<array>
-				<string>5D0D0A08C7C9DF6B575D9AFB</string>
-				<string>BB3387A1921001868B238A89</string>
-			</array>
-			<key>defaultConfigurationIsVisible</key>
-			<string>0</string>
-			<key>defaultConfigurationName</key>
-			<string>Release</string>
-			<key>isa</key>
-			<string>XCConfigurationList</string>
-		</dict>
-		<key>514B8FCFC23ADDBEFD090749</key>
-		<dict>
-			<key>containerPortal</key>
-			<string>75BE14406EC9EA698EADC742</string>
-			<key>isa</key>
-			<string>PBXContainerItemProxy</string>
-			<key>proxyType</key>
-			<string>1</string>
-			<key>remoteGlobalIDString</key>
-			<string>76C42B4DC1A52C40DEE02D01</string>
-			<key>remoteInfo</key>
-			<string>Pods-AFHorizontalDayPicker-MTDates</string>
-		</dict>
-		<key>531F0D1B55638E17A18DBD10</key>
-		<dict>
-			<key>baseConfigurationReference</key>
-			<string>E27565526A4F978D6B0E96D6</string>
-			<key>buildSettings</key>
-			<dict>
-				<key>ALWAYS_SEARCH_USER_PATHS</key>
-				<string>NO</string>
-				<key>COPY_PHASE_STRIP</key>
-				<string>NO</string>
-				<key>DSTROOT</key>
-				<string>/tmp/xcodeproj.dst</string>
-				<key>GCC_DYNAMIC_NO_PIC</key>
-				<string>NO</string>
-				<key>GCC_OPTIMIZATION_LEVEL</key>
-				<string>0</string>
-				<key>GCC_PRECOMPILE_PREFIX_HEADER</key>
-				<string>YES</string>
-				<key>GCC_PREFIX_HEADER</key>
-				<string>Target Support Files/Pods-Tests-AFHorizontalDayPicker/Pods-Tests-AFHorizontalDayPicker-prefix.pch</string>
-				<key>GCC_PREPROCESSOR_DEFINITIONS</key>
-				<array>
-					<string>DEBUG=1</string>
-					<string>$(inherited)</string>
-				</array>
-				<key>GCC_SYMBOLS_PRIVATE_EXTERN</key>
-				<string>NO</string>
-				<key>INSTALL_PATH</key>
-				<string>$(BUILT_PRODUCTS_DIR)</string>
-				<key>IPHONEOS_DEPLOYMENT_TARGET</key>
-				<string>7.1</string>
-				<key>OTHER_LDFLAGS</key>
-				<string></string>
-				<key>OTHER_LIBTOOLFLAGS</key>
-				<string></string>
-				<key>PRODUCT_NAME</key>
-				<string>$(TARGET_NAME)</string>
-				<key>PUBLIC_HEADERS_FOLDER_PATH</key>
-				<string>$(TARGET_NAME)</string>
-				<key>SDKROOT</key>
-				<string>iphoneos</string>
-				<key>SKIP_INSTALL</key>
-				<string>YES</string>
-			</dict>
-			<key>isa</key>
-			<string>XCBuildConfiguration</string>
-			<key>name</key>
-			<string>Debug</string>
-		</dict>
-		<key>5B17ED358A5BD19C4938835C</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>text.xcconfig</string>
-			<key>path</key>
-			<string>Pods-AFHorizontalDayPicker-MTDates-Private.xcconfig</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>5B21093818E7705F432165A5</key>
-		<dict>
-			<key>buildConfigurations</key>
-			<array>
-				<string>531F0D1B55638E17A18DBD10</string>
-				<string>0F611148FCC9D6EA53F5FE4E</string>
-			</array>
-			<key>defaultConfigurationIsVisible</key>
-			<string>0</string>
-			<key>defaultConfigurationName</key>
-			<string>Release</string>
-			<key>isa</key>
-			<string>XCConfigurationList</string>
-		</dict>
-		<key>5D0D0A08C7C9DF6B575D9AFB</key>
-		<dict>
-			<key>buildSettings</key>
-			<dict>
-				<key>ALWAYS_SEARCH_USER_PATHS</key>
-				<string>NO</string>
-				<key>CLANG_CXX_LANGUAGE_STANDARD</key>
-				<string>gnu++0x</string>
-				<key>CLANG_CXX_LIBRARY</key>
-				<string>libc++</string>
-				<key>CLANG_ENABLE_MODULES</key>
-				<string>YES</string>
-				<key>CLANG_ENABLE_OBJC_ARC</key>
-				<string>YES</string>
-				<key>CLANG_WARN_BOOL_CONVERSION</key>
-				<string>YES</string>
-				<key>CLANG_WARN_CONSTANT_CONVERSION</key>
-				<string>YES</string>
-				<key>CLANG_WARN_DIRECT_OBJC_ISA_USAGE</key>
-				<string>YES</string>
-				<key>CLANG_WARN_EMPTY_BODY</key>
-				<string>YES</string>
-				<key>CLANG_WARN_ENUM_CONVERSION</key>
-				<string>YES</string>
-				<key>CLANG_WARN_INT_CONVERSION</key>
-				<string>YES</string>
-				<key>CLANG_WARN_OBJC_ROOT_CLASS</key>
-				<string>YES</string>
-				<key>COPY_PHASE_STRIP</key>
-				<string>YES</string>
-				<key>GCC_C_LANGUAGE_STANDARD</key>
-				<string>gnu99</string>
-				<key>GCC_DYNAMIC_NO_PIC</key>
-				<string>NO</string>
-				<key>GCC_OPTIMIZATION_LEVEL</key>
-				<string>0</string>
-				<key>GCC_PREPROCESSOR_DEFINITIONS</key>
-				<array>
-					<string>DEBUG=1</string>
-					<string>$(inherited)</string>
-				</array>
-				<key>GCC_SYMBOLS_PRIVATE_EXTERN</key>
-				<string>NO</string>
-				<key>GCC_WARN_64_TO_32_BIT_CONVERSION</key>
-				<string>YES</string>
-				<key>GCC_WARN_ABOUT_RETURN_TYPE</key>
-				<string>YES</string>
-				<key>GCC_WARN_UNDECLARED_SELECTOR</key>
-				<string>YES</string>
-				<key>GCC_WARN_UNINITIALIZED_AUTOS</key>
-				<string>YES</string>
-				<key>GCC_WARN_UNUSED_FUNCTION</key>
-				<string>YES</string>
-				<key>GCC_WARN_UNUSED_VARIABLE</key>
-				<string>YES</string>
-				<key>IPHONEOS_DEPLOYMENT_TARGET</key>
-				<string>7.1</string>
-				<key>ONLY_ACTIVE_ARCH</key>
-				<string>YES</string>
-				<key>STRIP_INSTALLED_PRODUCT</key>
-				<string>NO</string>
-			</dict>
-			<key>isa</key>
-			<string>XCBuildConfiguration</string>
-			<key>name</key>
-			<string>Debug</string>
-		</dict>
-		<key>5E4EC6B5C0EEB9B04E08A18B</key>
-		<dict>
-			<key>fileRef</key>
-			<string>A75BFD9AB77CC96FC02ABB0B</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>5E9E46C103ABCCE407060EC1</key>
-		<dict>
-			<key>fileRef</key>
-			<string>64444C10E30F0962FD84E98F</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>5F03A5E7625C70EC74C22768</key>
-		<dict>
-			<key>explicitFileType</key>
-			<string>archive.ar</string>
-			<key>includeInIndex</key>
-			<string>0</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>path</key>
-			<string>libPods-Tests.a</string>
-			<key>sourceTree</key>
-			<string>BUILT_PRODUCTS_DIR</string>
-		</dict>
-		<key>63B0D0974E6C6C1C2FCDA3FA</key>
-		<dict>
-			<key>fileRef</key>
-			<string>B4E8B352DE46585A9EBE0FC1</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>641959B6A3AA7431ED492997</key>
-		<dict>
-			<key>buildActionMask</key>
-			<string>2147483647</string>
-			<key>files</key>
-			<array>
-				<string>92E8E9B80F38AB2B119BEEF5</string>
-			</array>
-			<key>isa</key>
-			<string>PBXFrameworksBuildPhase</string>
-			<key>runOnlyForDeploymentPostprocessing</key>
-			<string>0</string>
-		</dict>
-		<key>64444C10E30F0962FD84E98F</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.objc</string>
-			<key>path</key>
-			<string>Pods-AFHorizontalDayPicker-MTDates-dummy.m</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>664A7B120A6E267F158B0A62</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.objc</string>
-			<key>name</key>
-			<string>AFDaysCollectionViewFlowLayout.m</string>
-			<key>path</key>
-			<string>Pod/Classes/AFDaysCollectionViewFlowLayout.m</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>692A3687B9BB1420B184815A</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>067B1CA3328E82B6E13F9FE2</string>
-				<string>892E390669AC9DD463B7E7A8</string>
-				<string>CBFCC812F9AB3F2466252ED2</string>
-				<string>4771636EB87F97A182FCF711</string>
-				<string>D872808463B38C993D6C1AD0</string>
-				<string>D525DB6A0BAB861707AD5BC0</string>
-			</array>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>6A7F9365360E98C501D40A3A</key>
-		<dict>
-			<key>containerPortal</key>
-			<string>75BE14406EC9EA698EADC742</string>
-			<key>isa</key>
-			<string>PBXContainerItemProxy</string>
-			<key>proxyType</key>
-			<string>1</string>
-			<key>remoteGlobalIDString</key>
-			<string>C7C44D59510E133205938A6E</string>
-			<key>remoteInfo</key>
-			<string>AFHorizontalDayPicker</string>
-		</dict>
-		<key>6C4A1A2E43A46F2A4ED054CA</key>
-		<dict>
-			<key>isa</key>
-			<string>PBXTargetDependency</string>
-			<key>name</key>
-			<string>Pods-AFHorizontalDayPicker-AFHorizontalDayPicker</string>
-			<key>target</key>
-			<string>0E74389877C104A84F89D436</string>
-			<key>targetProxy</key>
-			<string>BCF66BA690F9816DEC1D7D0E</string>
-		</dict>
-		<key>6FAB7BA9CA115B8E859BE978</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>text.script.sh</string>
-			<key>path</key>
-			<string>Pods-Tests-resources.sh</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>6FC01AEB9A12094EA1DE9903</key>
-		<dict>
-			<key>buildActionMask</key>
-			<string>2147483647</string>
-			<key>files</key>
-			<array/>
-			<key>isa</key>
-			<string>PBXFrameworksBuildPhase</string>
-			<key>runOnlyForDeploymentPostprocessing</key>
-			<string>0</string>
-		</dict>
-		<key>705AF9D34DFBC223DF501E9E</key>
-		<dict>
-			<key>fileRef</key>
-			<string>4BAD16F0C98805B1435BF9D1</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>70ACFF53A1CD37089A648AA5</key>
-		<dict>
-			<key>fileRef</key>
-			<string>664A7B120A6E267F158B0A62</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>73125375AB7476BCDFC895B6</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>text.xcconfig</string>
-			<key>name</key>
-			<string>Pods-Tests-AFHorizontalDayPicker.xcconfig</string>
-			<key>path</key>
-			<string>../Pods-Tests-AFHorizontalDayPicker/Pods-Tests-AFHorizontalDayPicker.xcconfig</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>7366AC7811815E4E03CE3A9A</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.objc</string>
-			<key>name</key>
-			<string>AFDayCell.m</string>
-			<key>path</key>
-			<string>Pod/Classes/AFDayCell.m</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>73869F02FF0511D706F98DBE</key>
-		<dict>
-			<key>buildActionMask</key>
-			<string>2147483647</string>
-			<key>files</key>
-			<array>
-				<string>63B0D0974E6C6C1C2FCDA3FA</string>
-				<string>404FD464C9BA949FA6478C65</string>
-			</array>
-			<key>isa</key>
-			<string>PBXHeadersBuildPhase</string>
-			<key>runOnlyForDeploymentPostprocessing</key>
-			<string>0</string>
-		</dict>
-		<key>7483096F027E1576C78D51C2</key>
-		<dict>
-			<key>baseConfigurationReference</key>
-			<string>EE94B3D57EC3CEA388FD03BA</string>
-			<key>buildSettings</key>
-			<dict>
-				<key>ALWAYS_SEARCH_USER_PATHS</key>
-				<string>NO</string>
-				<key>COPY_PHASE_STRIP</key>
-				<string>NO</string>
-				<key>DSTROOT</key>
-				<string>/tmp/xcodeproj.dst</string>
-				<key>GCC_DYNAMIC_NO_PIC</key>
-				<string>NO</string>
-				<key>GCC_OPTIMIZATION_LEVEL</key>
-				<string>0</string>
-				<key>GCC_PRECOMPILE_PREFIX_HEADER</key>
-				<string>YES</string>
-				<key>GCC_PREFIX_HEADER</key>
-				<string>Target Support Files/Pods-Tests-MTDates/Pods-Tests-MTDates-prefix.pch</string>
-				<key>GCC_PREPROCESSOR_DEFINITIONS</key>
-				<array>
-					<string>DEBUG=1</string>
-					<string>$(inherited)</string>
-				</array>
-				<key>GCC_SYMBOLS_PRIVATE_EXTERN</key>
-				<string>NO</string>
-				<key>INSTALL_PATH</key>
-				<string>$(BUILT_PRODUCTS_DIR)</string>
-				<key>IPHONEOS_DEPLOYMENT_TARGET</key>
-				<string>7.1</string>
-				<key>OTHER_LDFLAGS</key>
-				<string></string>
-				<key>OTHER_LIBTOOLFLAGS</key>
-				<string></string>
-				<key>PRODUCT_NAME</key>
-				<string>$(TARGET_NAME)</string>
-				<key>PUBLIC_HEADERS_FOLDER_PATH</key>
-				<string>$(TARGET_NAME)</string>
-				<key>SDKROOT</key>
-				<string>iphoneos</string>
-				<key>SKIP_INSTALL</key>
-				<string>YES</string>
-			</dict>
-			<key>isa</key>
-			<string>XCBuildConfiguration</string>
-			<key>name</key>
-			<string>Debug</string>
-		</dict>
-		<key>74F2B8EBC954C09ADEBC88A8</key>
-		<dict>
-			<key>baseConfigurationReference</key>
-			<string>EDF99212E1389F6D6D756CB2</string>
-			<key>buildSettings</key>
-			<dict>
-				<key>ALWAYS_SEARCH_USER_PATHS</key>
-				<string>NO</string>
-				<key>COPY_PHASE_STRIP</key>
-				<string>YES</string>
-				<key>DSTROOT</key>
-				<string>/tmp/xcodeproj.dst</string>
-				<key>GCC_PRECOMPILE_PREFIX_HEADER</key>
-				<string>YES</string>
-				<key>INSTALL_PATH</key>
-				<string>$(BUILT_PRODUCTS_DIR)</string>
-				<key>IPHONEOS_DEPLOYMENT_TARGET</key>
-				<string>7.1</string>
-				<key>OTHER_CFLAGS</key>
-				<array>
-					<string>-DNS_BLOCK_ASSERTIONS=1</string>
-					<string>$(inherited)</string>
-				</array>
-				<key>OTHER_CPLUSPLUSFLAGS</key>
-				<array>
-					<string>-DNS_BLOCK_ASSERTIONS=1</string>
-					<string>$(inherited)</string>
-				</array>
-				<key>OTHER_LDFLAGS</key>
-				<string></string>
-				<key>OTHER_LIBTOOLFLAGS</key>
-				<string></string>
-				<key>PRODUCT_NAME</key>
-				<string>$(TARGET_NAME)</string>
-				<key>PUBLIC_HEADERS_FOLDER_PATH</key>
-				<string>$(TARGET_NAME)</string>
-				<key>SDKROOT</key>
-				<string>iphoneos</string>
-				<key>SKIP_INSTALL</key>
-				<string>YES</string>
-				<key>VALIDATE_PRODUCT</key>
-				<string>YES</string>
-			</dict>
-			<key>isa</key>
-			<string>XCBuildConfiguration</string>
-			<key>name</key>
-			<string>Release</string>
-		</dict>
-		<key>759DCFE0F3FAFF983B25FD29</key>
-		<dict>
-			<key>buildConfigurationList</key>
-			<string>5B21093818E7705F432165A5</string>
-			<key>buildPhases</key>
-			<array>
-				<string>BDADB036756E67641710DB3A</string>
-				<string>32BF755A468B8C8E8F01427D</string>
-				<string>24FA13082CA0090F8B5B1D4E</string>
-			</array>
-			<key>buildRules</key>
-			<array/>
-			<key>dependencies</key>
-			<array>
-				<string>4ABC0388A518844B64DC7650</string>
-				<string>ABA9054CC70722C4BD7BB4AA</string>
-			</array>
-			<key>isa</key>
-			<string>PBXNativeTarget</string>
-			<key>name</key>
-			<string>Pods-Tests-AFHorizontalDayPicker</string>
-			<key>productName</key>
-			<string>Pods-Tests-AFHorizontalDayPicker</string>
-			<key>productReference</key>
-			<string>97187AD191B0DB2F37A8779C</string>
-			<key>productType</key>
-			<string>com.apple.product-type.library.static</string>
-		</dict>
-		<key>75BE14406EC9EA698EADC742</key>
-		<dict>
-			<key>attributes</key>
-			<dict>
-				<key>LastUpgradeCheck</key>
-				<string>0510</string>
-			</dict>
-			<key>buildConfigurationList</key>
-			<string>5117E5AD50A1E24DFD78273D</string>
-			<key>compatibilityVersion</key>
-			<string>Xcode 3.2</string>
-			<key>developmentRegion</key>
-			<string>English</string>
-			<key>hasScannedForEncodings</key>
-			<string>0</string>
-			<key>isa</key>
-			<string>PBXProject</string>
-			<key>knownRegions</key>
-			<array>
-				<string>en</string>
-			</array>
-			<key>mainGroup</key>
-			<string>692A3687B9BB1420B184815A</string>
-			<key>productRefGroup</key>
-			<string>D872808463B38C993D6C1AD0</string>
-			<key>projectDirPath</key>
-			<string></string>
-			<key>projectReferences</key>
-			<array/>
-			<key>projectRoot</key>
-			<string></string>
-			<key>targets</key>
-			<array>
-				<string>C7C44D59510E133205938A6E</string>
-				<string>3A0D9227A93514F954CBB31D</string>
-				<string>0E74389877C104A84F89D436</string>
-				<string>76C42B4DC1A52C40DEE02D01</string>
-				<string>139B4208E7AAFDA718068915</string>
-				<string>759DCFE0F3FAFF983B25FD29</string>
-				<string>4CFB4F2E9E4E35785F49645C</string>
-			</array>
-		</dict>
-		<key>76C42B4DC1A52C40DEE02D01</key>
-		<dict>
-			<key>buildConfigurationList</key>
-			<string>B84B66F582C1DEECF6623FD0</string>
-			<key>buildPhases</key>
-			<array>
-				<string>D280856ED18270AEBEC4E372</string>
-				<string>073966DBD5DA4165741348BA</string>
-				<string>73869F02FF0511D706F98DBE</string>
-			</array>
-			<key>buildRules</key>
-			<array/>
-			<key>dependencies</key>
-			<array/>
-			<key>isa</key>
-			<string>PBXNativeTarget</string>
-			<key>name</key>
-			<string>Pods-AFHorizontalDayPicker-MTDates</string>
-			<key>productName</key>
-			<string>Pods-AFHorizontalDayPicker-MTDates</string>
-			<key>productReference</key>
-			<string>1B04A13334584CFF608455EC</string>
-			<key>productType</key>
-			<string>com.apple.product-type.library.static</string>
-		</dict>
-		<key>7C0FD99D5CA4A852EF4DFB9C</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.objc</string>
-			<key>path</key>
-			<string>Pods-AFHorizontalDayPicker-dummy.m</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>7D7B10D86195BCFBF51B10AD</key>
-		<dict>
-			<key>fileRef</key>
-			<string>30D20F7CCD8A82FC2CC47EBA</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>7D9575F4EB39F71B40368220</key>
-		<dict>
-			<key>baseConfigurationReference</key>
-			<string>5B17ED358A5BD19C4938835C</string>
-			<key>buildSettings</key>
-			<dict>
-				<key>ALWAYS_SEARCH_USER_PATHS</key>
-				<string>NO</string>
-				<key>COPY_PHASE_STRIP</key>
-				<string>NO</string>
-				<key>DSTROOT</key>
-				<string>/tmp/xcodeproj.dst</string>
-				<key>GCC_DYNAMIC_NO_PIC</key>
-				<string>NO</string>
-				<key>GCC_OPTIMIZATION_LEVEL</key>
-				<string>0</string>
-				<key>GCC_PRECOMPILE_PREFIX_HEADER</key>
-				<string>YES</string>
-				<key>GCC_PREFIX_HEADER</key>
-				<string>Target Support Files/Pods-AFHorizontalDayPicker-MTDates/Pods-AFHorizontalDayPicker-MTDates-prefix.pch</string>
-				<key>GCC_PREPROCESSOR_DEFINITIONS</key>
-				<array>
-					<string>DEBUG=1</string>
-					<string>$(inherited)</string>
-				</array>
-				<key>GCC_SYMBOLS_PRIVATE_EXTERN</key>
-				<string>NO</string>
-				<key>INSTALL_PATH</key>
-				<string>$(BUILT_PRODUCTS_DIR)</string>
-				<key>IPHONEOS_DEPLOYMENT_TARGET</key>
-				<string>7.1</string>
-				<key>OTHER_LDFLAGS</key>
-				<string></string>
-				<key>OTHER_LIBTOOLFLAGS</key>
-				<string></string>
-				<key>PRODUCT_NAME</key>
-				<string>$(TARGET_NAME)</string>
-				<key>PUBLIC_HEADERS_FOLDER_PATH</key>
-				<string>$(TARGET_NAME)</string>
-				<key>SDKROOT</key>
-				<string>iphoneos</string>
-				<key>SKIP_INSTALL</key>
-				<string>YES</string>
-			</dict>
-			<key>isa</key>
-			<string>XCBuildConfiguration</string>
-			<key>name</key>
-			<string>Debug</string>
-		</dict>
-		<key>81602468A69612A09043B63E</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>text.xcconfig</string>
-			<key>path</key>
-			<string>Pods-AFHorizontalDayPicker.release.xcconfig</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>85328F43A5A9180963D242A3</key>
-		<dict>
-			<key>fileRef</key>
-			<string>CC0F4CB7CC8902FDA45F41FD</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>892E390669AC9DD463B7E7A8</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>EF865ACBB622FEFDE4FA08B8</string>
-			</array>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>name</key>
-			<string>Development Pods</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>8B901D3238A7DE9C01EB6D20</key>
-		<dict>
-			<key>fileRef</key>
-			<string>A75BFD9AB77CC96FC02ABB0B</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>8D435D122F48D7F03564038D</key>
-		<dict>
-			<key>baseConfigurationReference</key>
-			<string>81602468A69612A09043B63E</string>
-			<key>buildSettings</key>
-			<dict>
-				<key>ALWAYS_SEARCH_USER_PATHS</key>
-				<string>NO</string>
-				<key>COPY_PHASE_STRIP</key>
-				<string>YES</string>
-				<key>DSTROOT</key>
-				<string>/tmp/xcodeproj.dst</string>
-				<key>GCC_PRECOMPILE_PREFIX_HEADER</key>
-				<string>YES</string>
-				<key>INSTALL_PATH</key>
-				<string>$(BUILT_PRODUCTS_DIR)</string>
-				<key>IPHONEOS_DEPLOYMENT_TARGET</key>
-				<string>7.1</string>
-				<key>OTHER_CFLAGS</key>
-				<array>
-					<string>-DNS_BLOCK_ASSERTIONS=1</string>
-					<string>$(inherited)</string>
-				</array>
-				<key>OTHER_CPLUSPLUSFLAGS</key>
-				<array>
-					<string>-DNS_BLOCK_ASSERTIONS=1</string>
-					<string>$(inherited)</string>
-				</array>
-				<key>OTHER_LDFLAGS</key>
-				<string></string>
-				<key>OTHER_LIBTOOLFLAGS</key>
-				<string></string>
-				<key>PRODUCT_NAME</key>
-				<string>$(TARGET_NAME)</string>
-				<key>PUBLIC_HEADERS_FOLDER_PATH</key>
-				<string>$(TARGET_NAME)</string>
-				<key>SDKROOT</key>
-				<string>iphoneos</string>
-				<key>SKIP_INSTALL</key>
-				<string>YES</string>
-				<key>VALIDATE_PRODUCT</key>
-				<string>YES</string>
-			</dict>
-			<key>isa</key>
-			<string>XCBuildConfiguration</string>
-			<key>name</key>
-			<string>Release</string>
-		</dict>
-		<key>8DFFA8AA31EF2CF7F0CCF320</key>
-		<dict>
-			<key>fileRef</key>
-			<string>FDB1850E566CC3C9ABA718A8</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>8FF7D025164962084E3B2F59</key>
-		<dict>
-			<key>buildConfigurations</key>
-			<array>
-				<string>F59465B114AC8D5B2B3D7CD1</string>
-				<string>8D435D122F48D7F03564038D</string>
-			</array>
-			<key>defaultConfigurationIsVisible</key>
-			<string>0</string>
-			<key>defaultConfigurationName</key>
-			<string>Release</string>
-			<key>isa</key>
-			<string>XCConfigurationList</string>
-		</dict>
-		<key>91E1259F5884844394899CDC</key>
-		<dict>
-			<key>buildActionMask</key>
-			<string>2147483647</string>
-			<key>files</key>
-			<array>
-				<string>3410719F71ECDB37499B11FA</string>
-				<string>4768C51E32FF071C3EC78AA7</string>
-				<string>F35CEE6C31C8036C20C6159D</string>
-			</array>
-			<key>isa</key>
-			<string>PBXHeadersBuildPhase</string>
-			<key>runOnlyForDeploymentPostprocessing</key>
-			<string>0</string>
-		</dict>
-		<key>92E8E9B80F38AB2B119BEEF5</key>
-		<dict>
-			<key>fileRef</key>
-			<string>A75BFD9AB77CC96FC02ABB0B</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>97187AD191B0DB2F37A8779C</key>
-		<dict>
-			<key>explicitFileType</key>
-			<string>archive.ar</string>
-			<key>includeInIndex</key>
-			<string>0</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>path</key>
-			<string>libPods-Tests-AFHorizontalDayPicker.a</string>
-			<key>sourceTree</key>
-			<string>BUILT_PRODUCTS_DIR</string>
-		</dict>
-		<key>973C948BD105230EB7996974</key>
-		<dict>
-			<key>explicitFileType</key>
-			<string>archive.ar</string>
-			<key>includeInIndex</key>
-			<string>0</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>path</key>
-			<string>libPods-AFHorizontalDayPicker.a</string>
-			<key>sourceTree</key>
-			<string>BUILT_PRODUCTS_DIR</string>
-		</dict>
-		<key>990AFA260642CDD703DF785B</key>
-		<dict>
-			<key>fileRef</key>
-			<string>D02821BD1B81A94FB06CECBB</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>9B984AC5200D187F42400B0F</key>
-		<dict>
-			<key>buildActionMask</key>
-			<string>2147483647</string>
-			<key>files</key>
-			<array>
-				<string>AC42B72568C4904419761327</string>
-			</array>
-			<key>isa</key>
-			<string>PBXFrameworksBuildPhase</string>
-			<key>runOnlyForDeploymentPostprocessing</key>
-			<string>0</string>
-		</dict>
-		<key>9EA85DEDB143CA824A63BDF4</key>
-		<dict>
-			<key>containerPortal</key>
-			<string>75BE14406EC9EA698EADC742</string>
-			<key>isa</key>
-			<string>PBXContainerItemProxy</string>
-			<key>proxyType</key>
-			<string>1</string>
-			<key>remoteGlobalIDString</key>
-			<string>759DCFE0F3FAFF983B25FD29</string>
-			<key>remoteInfo</key>
-			<string>Pods-Tests-AFHorizontalDayPicker</string>
-		</dict>
-		<key>A09CC429F208A109B1C1F684</key>
-		<dict>
-			<key>buildActionMask</key>
-			<string>2147483647</string>
-			<key>files</key>
-			<array>
-				<string>8DFFA8AA31EF2CF7F0CCF320</string>
-				<string>E87EC5AD51C023F1DA0B2BB0</string>
-				<string>7D7B10D86195BCFBF51B10AD</string>
-			</array>
-			<key>isa</key>
-			<string>PBXSourcesBuildPhase</string>
-			<key>runOnlyForDeploymentPostprocessing</key>
-			<string>0</string>
-		</dict>
-		<key>A1BBD4798598AB72AA980B52</key>
-		<dict>
-			<key>fileRef</key>
-			<string>FDB1850E566CC3C9ABA718A8</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>A260E8EECA05E5CCF0F5CA0C</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>A75BFD9AB77CC96FC02ABB0B</string>
-				<string>4BAD16F0C98805B1435BF9D1</string>
-			</array>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>name</key>
-			<string>iOS</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>A294D406B7E04C10D1142D80</key>
-		<dict>
-			<key>fileRef</key>
-			<string>FE5D0CEDDA08A764DEE7D94F</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>A350ACDDF7784EDAC58250CD</key>
-		<dict>
-			<key>fileRef</key>
-			<string>FFB91744ABE9B90285ACF03C</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>A46D1DAF3A79DDD873C95E32</key>
-		<dict>
-			<key>containerPortal</key>
-			<string>75BE14406EC9EA698EADC742</string>
-			<key>isa</key>
-			<string>PBXContainerItemProxy</string>
-			<key>proxyType</key>
-			<string>1</string>
-			<key>remoteGlobalIDString</key>
-			<string>C7C44D59510E133205938A6E</string>
-			<key>remoteInfo</key>
-			<string>AFHorizontalDayPicker</string>
-		</dict>
-		<key>A75BFD9AB77CC96FC02ABB0B</key>
-		<dict>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>wrapper.framework</string>
-			<key>name</key>
-			<string>Foundation.framework</string>
-			<key>path</key>
-			<string>Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/System/Library/Frameworks/Foundation.framework</string>
-			<key>sourceTree</key>
-			<string>DEVELOPER_DIR</string>
-		</dict>
-		<key>AB428958B999B72E4886CB7C</key>
-		<dict>
-			<key>buildActionMask</key>
-			<string>2147483647</string>
-			<key>files</key>
-			<array>
-				<string>1FF252A090F952483C0E70F8</string>
-				<string>2F698CDECE61632951E8CD87</string>
-			</array>
-			<key>isa</key>
-			<string>PBXHeadersBuildPhase</string>
-			<key>runOnlyForDeploymentPostprocessing</key>
-			<string>0</string>
-		</dict>
-		<key>ABA9054CC70722C4BD7BB4AA</key>
-		<dict>
-			<key>isa</key>
-			<string>PBXTargetDependency</string>
-			<key>name</key>
-			<string>Pods-Tests-MTDates</string>
-			<key>target</key>
-			<string>4CFB4F2E9E4E35785F49645C</string>
-			<key>targetProxy</key>
-			<string>CD609EBBE4A321EBC1E9E7D7</string>
-		</dict>
-		<key>AC42B72568C4904419761327</key>
-		<dict>
-			<key>fileRef</key>
-			<string>A75BFD9AB77CC96FC02ABB0B</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>B02CB27B368D7771AB74B792</key>
-		<dict>
-			<key>isa</key>
-			<string>PBXTargetDependency</string>
-			<key>name</key>
-			<string>Pods-Tests-MTDates</string>
-			<key>target</key>
-			<string>4CFB4F2E9E4E35785F49645C</string>
-			<key>targetProxy</key>
-			<string>FCB5355B72C2FD91BB16A7FD</string>
-		</dict>
-		<key>B2B9FCA86465F899790DF365</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
-			<key>name</key>
-			<string>Pods-Tests-MTDates-prefix.pch</string>
-			<key>path</key>
-			<string>../Pods-Tests-MTDates/Pods-Tests-MTDates-prefix.pch</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>B4E8B352DE46585A9EBE0FC1</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
-			<key>name</key>
-			<string>NSDate+MTDates.h</string>
-			<key>path</key>
-			<string>MTDates/NSDate+MTDates.h</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>B56BD4CCAC371AF3337C12D6</key>
-		<dict>
-			<key>fileRef</key>
-			<string>F0E2C222DC966C6D5D0B0762</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>B8192094EC012959867B5713</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.objc</string>
-			<key>path</key>
-			<string>Pods-Tests-dummy.m</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>B84B66F582C1DEECF6623FD0</key>
-		<dict>
-			<key>buildConfigurations</key>
-			<array>
-				<string>7D9575F4EB39F71B40368220</string>
-				<string>CFB2CD71D97D38F6518FCA02</string>
-			</array>
-			<key>defaultConfigurationIsVisible</key>
-			<string>0</string>
-			<key>defaultConfigurationName</key>
-			<string>Release</string>
-			<key>isa</key>
-			<string>XCConfigurationList</string>
-		</dict>
-		<key>B8FC86186797DA44B235252A</key>
-		<dict>
-			<key>explicitFileType</key>
-			<string>wrapper.cfbundle</string>
-			<key>includeInIndex</key>
-			<string>0</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>path</key>
-			<string>AFHorizontalDayPicker.bundle</string>
-			<key>sourceTree</key>
-			<string>BUILT_PRODUCTS_DIR</string>
-		</dict>
-		<key>BA1F25FCC65A733FF3AA1A7E</key>
-		<dict>
-			<key>fileRef</key>
-			<string>B8192094EC012959867B5713</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>BA66E1126830EA065B55B8C1</key>
-		<dict>
-			<key>fileRef</key>
-			<string>A75BFD9AB77CC96FC02ABB0B</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>BB3387A1921001868B238A89</key>
-		<dict>
-			<key>buildSettings</key>
-			<dict>
-				<key>ALWAYS_SEARCH_USER_PATHS</key>
-				<string>NO</string>
-				<key>CLANG_CXX_LANGUAGE_STANDARD</key>
-				<string>gnu++0x</string>
-				<key>CLANG_CXX_LIBRARY</key>
-				<string>libc++</string>
-				<key>CLANG_ENABLE_MODULES</key>
-				<string>YES</string>
-				<key>CLANG_ENABLE_OBJC_ARC</key>
-				<string>YES</string>
-				<key>CLANG_WARN_BOOL_CONVERSION</key>
-				<string>YES</string>
-				<key>CLANG_WARN_CONSTANT_CONVERSION</key>
-				<string>YES</string>
-				<key>CLANG_WARN_DIRECT_OBJC_ISA_USAGE</key>
-				<string>YES</string>
-				<key>CLANG_WARN_EMPTY_BODY</key>
-				<string>YES</string>
-				<key>CLANG_WARN_ENUM_CONVERSION</key>
-				<string>YES</string>
-				<key>CLANG_WARN_INT_CONVERSION</key>
-				<string>YES</string>
-				<key>CLANG_WARN_OBJC_ROOT_CLASS</key>
-				<string>YES</string>
-				<key>COPY_PHASE_STRIP</key>
-				<string>NO</string>
-				<key>ENABLE_NS_ASSERTIONS</key>
-				<string>NO</string>
-				<key>GCC_C_LANGUAGE_STANDARD</key>
-				<string>gnu99</string>
-				<key>GCC_PREPROCESSOR_DEFINITIONS</key>
-				<array>
-					<string>RELEASE=1</string>
-				</array>
-				<key>GCC_WARN_64_TO_32_BIT_CONVERSION</key>
-				<string>YES</string>
-				<key>GCC_WARN_ABOUT_RETURN_TYPE</key>
-				<string>YES</string>
-				<key>GCC_WARN_UNDECLARED_SELECTOR</key>
-				<string>YES</string>
-				<key>GCC_WARN_UNINITIALIZED_AUTOS</key>
-				<string>YES</string>
-				<key>GCC_WARN_UNUSED_FUNCTION</key>
-				<string>YES</string>
-				<key>GCC_WARN_UNUSED_VARIABLE</key>
-				<string>YES</string>
-				<key>IPHONEOS_DEPLOYMENT_TARGET</key>
-				<string>7.1</string>
-				<key>STRIP_INSTALLED_PRODUCT</key>
-				<string>NO</string>
-				<key>VALIDATE_PRODUCT</key>
-				<string>YES</string>
-			</dict>
-			<key>isa</key>
-			<string>XCBuildConfiguration</string>
-			<key>name</key>
-			<string>Release</string>
-		</dict>
-		<key>BCF66BA690F9816DEC1D7D0E</key>
-		<dict>
-			<key>containerPortal</key>
-			<string>75BE14406EC9EA698EADC742</string>
-			<key>isa</key>
-			<string>PBXContainerItemProxy</string>
-			<key>proxyType</key>
-			<string>1</string>
-			<key>remoteGlobalIDString</key>
-			<string>0E74389877C104A84F89D436</string>
-			<key>remoteInfo</key>
-			<string>Pods-AFHorizontalDayPicker-AFHorizontalDayPicker</string>
-		</dict>
-		<key>BD9B7BC6639E3F066A8000B9</key>
-		<dict>
-			<key>buildActionMask</key>
-			<string>2147483647</string>
-			<key>files</key>
-			<array/>
-			<key>isa</key>
-			<string>PBXSourcesBuildPhase</string>
-			<key>runOnlyForDeploymentPostprocessing</key>
-			<string>0</string>
-		</dict>
-		<key>BDADB036756E67641710DB3A</key>
-		<dict>
-			<key>buildActionMask</key>
-			<string>2147483647</string>
-			<key>files</key>
-			<array>
-				<string>FFFDC7EFFEFA668BF7ADADE4</string>
-				<string>D418CA354C374C1F31D8F585</string>
-				<string>CDF7BFE2335C696ADF2194AD</string>
-				<string>F108CD2BBE736429D633F444</string>
-			</array>
-			<key>isa</key>
-			<string>PBXSourcesBuildPhase</string>
-			<key>runOnlyForDeploymentPostprocessing</key>
-			<string>0</string>
-		</dict>
-		<key>C2FEE98642A045E1760F38C0</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.objc</string>
-			<key>name</key>
-			<string>Pods-Tests-AFHorizontalDayPicker-dummy.m</string>
-			<key>path</key>
-			<string>../Pods-Tests-AFHorizontalDayPicker/Pods-Tests-AFHorizontalDayPicker-dummy.m</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>C3B37A1DB839CD3ABA9973D0</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>text.plist.xml</string>
-			<key>path</key>
-			<string>Pods-AFHorizontalDayPicker-acknowledgements.plist</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>C3F99778CEED56177F775878</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>text</string>
-			<key>path</key>
-			<string>Pods-AFHorizontalDayPicker-acknowledgements.markdown</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>C7C44D59510E133205938A6E</key>
-		<dict>
-			<key>buildConfigurationList</key>
-			<string>FB0F419AFBEB44929AE97FCF</string>
-			<key>buildPhases</key>
-			<array>
-				<string>BD9B7BC6639E3F066A8000B9</string>
-				<string>6FC01AEB9A12094EA1DE9903</string>
-				<string>0AB6A609214BF8FC7DB1DD90</string>
-			</array>
-			<key>buildRules</key>
-			<array/>
-			<key>dependencies</key>
-			<array/>
-			<key>isa</key>
-			<string>PBXNativeTarget</string>
-			<key>name</key>
-			<string>AFHorizontalDayPicker</string>
-			<key>productName</key>
-			<string>AFHorizontalDayPicker</string>
-			<key>productReference</key>
-			<string>B8FC86186797DA44B235252A</string>
-			<key>productType</key>
-			<string>com.apple.product-type.bundle</string>
-		</dict>
-		<key>C95417DA623E4EB0B59463FA</key>
-		<dict>
-			<key>explicitFileType</key>
-			<string>archive.ar</string>
-			<key>includeInIndex</key>
-			<string>0</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>path</key>
-			<string>libPods-Tests-MTDates.a</string>
-			<key>sourceTree</key>
-			<string>BUILT_PRODUCTS_DIR</string>
-		</dict>
-		<key>CBFCC812F9AB3F2466252ED2</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>A260E8EECA05E5CCF0F5CA0C</string>
-			</array>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>name</key>
-			<string>Frameworks</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>CC0F4CB7CC8902FDA45F41FD</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.objc</string>
-			<key>name</key>
-			<string>NSDateComponents+MTDates.m</string>
-			<key>path</key>
-			<string>MTDates/NSDateComponents+MTDates.m</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>CD609EBBE4A321EBC1E9E7D7</key>
-		<dict>
-			<key>containerPortal</key>
-			<string>75BE14406EC9EA698EADC742</string>
-			<key>isa</key>
-			<string>PBXContainerItemProxy</string>
-			<key>proxyType</key>
-			<string>1</string>
-			<key>remoteGlobalIDString</key>
-			<string>4CFB4F2E9E4E35785F49645C</string>
-			<key>remoteInfo</key>
-			<string>Pods-Tests-MTDates</string>
-		</dict>
-		<key>CD69544464E4CE4D84B68CE7</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>D4B6EE6F82D70E3C3EACD047</string>
-				<string>3B03EDDC4FCAAAC0F376E514</string>
-				<string>D02821BD1B81A94FB06CECBB</string>
-				<string>FA9832A585463A3F0A9398FC</string>
-				<string>73125375AB7476BCDFC895B6</string>
-				<string>E27565526A4F978D6B0E96D6</string>
-				<string>C2FEE98642A045E1760F38C0</string>
-				<string>26D39E7B23DA64273303D024</string>
-			</array>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>name</key>
-			<string>Support Files</string>
-			<key>path</key>
-			<string>Example/Pods/Target Support Files/Pods-AFHorizontalDayPicker-AFHorizontalDayPicker</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>CDF7BFE2335C696ADF2194AD</key>
-		<dict>
-			<key>fileRef</key>
-			<string>FE5D0CEDDA08A764DEE7D94F</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>CE8951E153424984AD3D27B0</key>
-		<dict>
-			<key>isa</key>
-			<string>PBXTargetDependency</string>
-			<key>name</key>
-			<string>Pods-AFHorizontalDayPicker-MTDates</string>
-			<key>target</key>
-			<string>76C42B4DC1A52C40DEE02D01</string>
-			<key>targetProxy</key>
-			<string>4111E11370BF520F7F077351</string>
-		</dict>
-		<key>CFB2CD71D97D38F6518FCA02</key>
-		<dict>
-			<key>baseConfigurationReference</key>
-			<string>5B17ED358A5BD19C4938835C</string>
-			<key>buildSettings</key>
-			<dict>
-				<key>ALWAYS_SEARCH_USER_PATHS</key>
-				<string>NO</string>
-				<key>COPY_PHASE_STRIP</key>
-				<string>YES</string>
-				<key>DSTROOT</key>
-				<string>/tmp/xcodeproj.dst</string>
-				<key>GCC_PRECOMPILE_PREFIX_HEADER</key>
-				<string>YES</string>
-				<key>GCC_PREFIX_HEADER</key>
-				<string>Target Support Files/Pods-AFHorizontalDayPicker-MTDates/Pods-AFHorizontalDayPicker-MTDates-prefix.pch</string>
-				<key>INSTALL_PATH</key>
-				<string>$(BUILT_PRODUCTS_DIR)</string>
-				<key>IPHONEOS_DEPLOYMENT_TARGET</key>
-				<string>7.1</string>
-				<key>OTHER_CFLAGS</key>
-				<array>
-					<string>-DNS_BLOCK_ASSERTIONS=1</string>
-					<string>$(inherited)</string>
-				</array>
-				<key>OTHER_CPLUSPLUSFLAGS</key>
-				<array>
-					<string>-DNS_BLOCK_ASSERTIONS=1</string>
-					<string>$(inherited)</string>
-				</array>
-				<key>OTHER_LDFLAGS</key>
-				<string></string>
-				<key>OTHER_LIBTOOLFLAGS</key>
-				<string></string>
-				<key>PRODUCT_NAME</key>
-				<string>$(TARGET_NAME)</string>
-				<key>PUBLIC_HEADERS_FOLDER_PATH</key>
-				<string>$(TARGET_NAME)</string>
-				<key>SDKROOT</key>
-				<string>iphoneos</string>
-				<key>SKIP_INSTALL</key>
-				<string>YES</string>
-				<key>VALIDATE_PRODUCT</key>
-				<string>YES</string>
-			</dict>
-			<key>isa</key>
-			<string>XCBuildConfiguration</string>
-			<key>name</key>
-			<string>Release</string>
-		</dict>
-		<key>D02821BD1B81A94FB06CECBB</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.objc</string>
-			<key>path</key>
-			<string>Pods-AFHorizontalDayPicker-AFHorizontalDayPicker-dummy.m</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>D09D7BD53640E4741C56C7D4</key>
-		<dict>
-			<key>buildActionMask</key>
-			<string>2147483647</string>
-			<key>files</key>
-			<array>
-				<string>5E4EC6B5C0EEB9B04E08A18B</string>
-				<string>41AF5F076D1EA0577ED7D2C3</string>
-			</array>
-			<key>isa</key>
-			<string>PBXFrameworksBuildPhase</string>
-			<key>runOnlyForDeploymentPostprocessing</key>
-			<string>0</string>
-		</dict>
-		<key>D280856ED18270AEBEC4E372</key>
-		<dict>
-			<key>buildActionMask</key>
-			<string>2147483647</string>
-			<key>files</key>
-			<array>
-				<string>A1BBD4798598AB72AA980B52</string>
-				<string>85328F43A5A9180963D242A3</string>
-				<string>5E9E46C103ABCCE407060EC1</string>
-			</array>
-			<key>isa</key>
-			<string>PBXSourcesBuildPhase</string>
-			<key>runOnlyForDeploymentPostprocessing</key>
-			<string>0</string>
-		</dict>
-		<key>D418CA354C374C1F31D8F585</key>
-		<dict>
-			<key>fileRef</key>
-			<string>664A7B120A6E267F158B0A62</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>D4B6EE6F82D70E3C3EACD047</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>text.xcconfig</string>
-			<key>path</key>
-			<string>Pods-AFHorizontalDayPicker-AFHorizontalDayPicker.xcconfig</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>D525DB6A0BAB861707AD5BC0</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>DAAE2FF446F3AEFA5CF94EA3</string>
-				<string>1C072D3278E81440BDE4CA7B</string>
-			</array>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>name</key>
-			<string>Targets Support Files</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>D872808463B38C993D6C1AD0</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>B8FC86186797DA44B235252A</string>
-				<string>973C948BD105230EB7996974</string>
-				<string>EA37083ACC7E5D6C9DE67D76</string>
-				<string>1B04A13334584CFF608455EC</string>
-				<string>5F03A5E7625C70EC74C22768</string>
-				<string>97187AD191B0DB2F37A8779C</string>
-				<string>C95417DA623E4EB0B59463FA</string>
-			</array>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>name</key>
-			<string>Products</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>DAAE2FF446F3AEFA5CF94EA3</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>C3F99778CEED56177F775878</string>
-				<string>C3B37A1DB839CD3ABA9973D0</string>
-				<string>7C0FD99D5CA4A852EF4DFB9C</string>
-				<string>2B46FB39D9385E4F5590E425</string>
-				<string>45803DBA6820753089F6B4D2</string>
-				<string>F03A913CFF0EB80E9579EF7E</string>
-				<string>81602468A69612A09043B63E</string>
-			</array>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>name</key>
-			<string>Pods-AFHorizontalDayPicker</string>
-			<key>path</key>
-			<string>Target Support Files/Pods-AFHorizontalDayPicker</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>DDD6C3CD781D866BFB219ABA</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>text.plist.xml</string>
-			<key>path</key>
-			<string>Pods-Tests-acknowledgements.plist</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>DF9E6BD3491548BD1C470419</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>text.xcconfig</string>
-			<key>name</key>
-			<string>Pods-Tests-MTDates.xcconfig</string>
-			<key>path</key>
-			<string>../Pods-Tests-MTDates/Pods-Tests-MTDates.xcconfig</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>E27565526A4F978D6B0E96D6</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>text.xcconfig</string>
-			<key>name</key>
-			<string>Pods-Tests-AFHorizontalDayPicker-Private.xcconfig</string>
-			<key>path</key>
-			<string>../Pods-Tests-AFHorizontalDayPicker/Pods-Tests-AFHorizontalDayPicker-Private.xcconfig</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>E87EC5AD51C023F1DA0B2BB0</key>
-		<dict>
-			<key>fileRef</key>
-			<string>CC0F4CB7CC8902FDA45F41FD</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>EA37083ACC7E5D6C9DE67D76</key>
-		<dict>
-			<key>explicitFileType</key>
-			<string>archive.ar</string>
-			<key>includeInIndex</key>
-			<string>0</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>path</key>
-			<string>libPods-AFHorizontalDayPicker-AFHorizontalDayPicker.a</string>
-			<key>sourceTree</key>
-			<string>BUILT_PRODUCTS_DIR</string>
-		</dict>
-		<key>EDF99212E1389F6D6D756CB2</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>text.xcconfig</string>
-			<key>path</key>
-			<string>Pods-Tests.release.xcconfig</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>EE94B3D57EC3CEA388FD03BA</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>text.xcconfig</string>
-			<key>name</key>
-			<string>Pods-Tests-MTDates-Private.xcconfig</string>
-			<key>path</key>
-			<string>../Pods-Tests-MTDates/Pods-Tests-MTDates-Private.xcconfig</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>EEE77AFA5CBBE43F4BB950EE</key>
-		<dict>
-			<key>buildActionMask</key>
-			<string>2147483647</string>
-			<key>files</key>
-			<array>
-				<string>329AE8865F90E9E428596FE6</string>
-				<string>70ACFF53A1CD37089A648AA5</string>
-				<string>A294D406B7E04C10D1142D80</string>
-				<string>990AFA260642CDD703DF785B</string>
-			</array>
-			<key>isa</key>
-			<string>PBXSourcesBuildPhase</string>
-			<key>runOnlyForDeploymentPostprocessing</key>
-			<string>0</string>
-		</dict>
-		<key>EEF653CD93D1108478E85A0C</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
-			<key>name</key>
-			<string>AFDayCell.h</string>
-			<key>path</key>
-			<string>Pod/Classes/AFDayCell.h</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>EF865ACBB622FEFDE4FA08B8</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>EEF653CD93D1108478E85A0C</string>
-				<string>7366AC7811815E4E03CE3A9A</string>
-				<string>FFB91744ABE9B90285ACF03C</string>
-				<string>664A7B120A6E267F158B0A62</string>
-				<string>F0E2C222DC966C6D5D0B0762</string>
-				<string>FE5D0CEDDA08A764DEE7D94F</string>
-				<string>CD69544464E4CE4D84B68CE7</string>
-			</array>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>name</key>
-			<string>AFHorizontalDayPicker</string>
-			<key>path</key>
-			<string>../..</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>F03A913CFF0EB80E9579EF7E</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>text.xcconfig</string>
-			<key>path</key>
-			<string>Pods-AFHorizontalDayPicker.debug.xcconfig</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>F0E2C222DC966C6D5D0B0762</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
-			<key>name</key>
-			<string>AFHorizontalDayPicker.h</string>
-			<key>path</key>
-			<string>Pod/Classes/AFHorizontalDayPicker.h</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>F108CD2BBE736429D633F444</key>
-		<dict>
-			<key>fileRef</key>
-			<string>C2FEE98642A045E1760F38C0</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>F34FAF7C618800D68887794E</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>text.xcconfig</string>
-			<key>path</key>
-			<string>Pods-AFHorizontalDayPicker-MTDates.xcconfig</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>F35CEE6C31C8036C20C6159D</key>
-		<dict>
-			<key>fileRef</key>
-			<string>F0E2C222DC966C6D5D0B0762</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>F59465B114AC8D5B2B3D7CD1</key>
-		<dict>
-			<key>baseConfigurationReference</key>
-			<string>F03A913CFF0EB80E9579EF7E</string>
-			<key>buildSettings</key>
-			<dict>
-				<key>ALWAYS_SEARCH_USER_PATHS</key>
-				<string>NO</string>
-				<key>COPY_PHASE_STRIP</key>
-				<string>NO</string>
-				<key>DSTROOT</key>
-				<string>/tmp/xcodeproj.dst</string>
-				<key>GCC_DYNAMIC_NO_PIC</key>
-				<string>NO</string>
-				<key>GCC_OPTIMIZATION_LEVEL</key>
-				<string>0</string>
-				<key>GCC_PRECOMPILE_PREFIX_HEADER</key>
-				<string>YES</string>
-				<key>GCC_PREPROCESSOR_DEFINITIONS</key>
-				<array>
-					<string>DEBUG=1</string>
-					<string>$(inherited)</string>
-				</array>
-				<key>GCC_SYMBOLS_PRIVATE_EXTERN</key>
-				<string>NO</string>
-				<key>INSTALL_PATH</key>
-				<string>$(BUILT_PRODUCTS_DIR)</string>
-				<key>IPHONEOS_DEPLOYMENT_TARGET</key>
-				<string>7.1</string>
-				<key>OTHER_LDFLAGS</key>
-				<string></string>
-				<key>OTHER_LIBTOOLFLAGS</key>
-				<string></string>
-				<key>PRODUCT_NAME</key>
-				<string>$(TARGET_NAME)</string>
-				<key>PUBLIC_HEADERS_FOLDER_PATH</key>
-				<string>$(TARGET_NAME)</string>
-				<key>SDKROOT</key>
-				<string>iphoneos</string>
-				<key>SKIP_INSTALL</key>
-				<string>YES</string>
-			</dict>
-			<key>isa</key>
-			<string>XCBuildConfiguration</string>
-			<key>name</key>
-			<string>Debug</string>
-		</dict>
-		<key>F7E616E5DBB08342FADE168E</key>
-		<dict>
-			<key>buildActionMask</key>
-			<string>2147483647</string>
-			<key>files</key>
-			<array>
-				<string>129EEF443E52BEED36F8DC07</string>
-			</array>
-			<key>isa</key>
-			<string>PBXSourcesBuildPhase</string>
-			<key>runOnlyForDeploymentPostprocessing</key>
-			<string>0</string>
-		</dict>
-		<key>FA9832A585463A3F0A9398FC</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
-			<key>path</key>
-			<string>Pods-AFHorizontalDayPicker-AFHorizontalDayPicker-prefix.pch</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>FB0F419AFBEB44929AE97FCF</key>
-		<dict>
-			<key>buildConfigurations</key>
-			<array>
-				<string>4A223A4DC1A6038F5B10AAC2</string>
-				<string>14834703E2AE343E6AC070DB</string>
-			</array>
-			<key>defaultConfigurationIsVisible</key>
-			<string>0</string>
-			<key>defaultConfigurationName</key>
-			<string>Release</string>
-			<key>isa</key>
-			<string>XCConfigurationList</string>
-		</dict>
-		<key>FCB5355B72C2FD91BB16A7FD</key>
-		<dict>
-			<key>containerPortal</key>
-			<string>75BE14406EC9EA698EADC742</string>
-			<key>isa</key>
-			<string>PBXContainerItemProxy</string>
-			<key>proxyType</key>
-			<string>1</string>
-			<key>remoteGlobalIDString</key>
-			<string>4CFB4F2E9E4E35785F49645C</string>
-			<key>remoteInfo</key>
-			<string>Pods-Tests-MTDates</string>
-		</dict>
-		<key>FCD919B35185E3DD9E03AF0C</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>text</string>
-			<key>path</key>
-			<string>Pods-Tests-acknowledgements.markdown</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>FDAE6CAACB1E24C8D405A263</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>F34FAF7C618800D68887794E</string>
-				<string>5B17ED358A5BD19C4938835C</string>
-				<string>64444C10E30F0962FD84E98F</string>
-				<string>49F8A8A650101DBF488C3457</string>
-				<string>DF9E6BD3491548BD1C470419</string>
-				<string>EE94B3D57EC3CEA388FD03BA</string>
-				<string>30D20F7CCD8A82FC2CC47EBA</string>
-				<string>B2B9FCA86465F899790DF365</string>
-			</array>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>name</key>
-			<string>Support Files</string>
-			<key>path</key>
-			<string>../Target Support Files/Pods-AFHorizontalDayPicker-MTDates</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>FDB1850E566CC3C9ABA718A8</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.objc</string>
-			<key>name</key>
-			<string>NSDate+MTDates.m</string>
-			<key>path</key>
-			<string>MTDates/NSDate+MTDates.m</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>FE5D0CEDDA08A764DEE7D94F</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.objc</string>
-			<key>name</key>
-			<string>AFHorizontalDayPicker.m</string>
-			<key>path</key>
-			<string>Pod/Classes/AFHorizontalDayPicker.m</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>FFB91744ABE9B90285ACF03C</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
-			<key>name</key>
-			<string>AFDaysCollectionViewFlowLayout.h</string>
-			<key>path</key>
-			<string>Pod/Classes/AFDaysCollectionViewFlowLayout.h</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>FFFDC7EFFEFA668BF7ADADE4</key>
-		<dict>
-			<key>fileRef</key>
-			<string>7366AC7811815E4E03CE3A9A</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-	</dict>
-	<key>rootObject</key>
-	<string>75BE14406EC9EA698EADC742</string>
-</dict>
-</plist>
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		12781C3647C03026D3831B6B /* AFDayCell.h in Headers */ = {isa = PBXBuildFile; fileRef = EEF653CD93D1108478E85A0C /* AFDayCell.h */; };
+		129EEF443E52BEED36F8DC07 /* Pods-AFHorizontalDayPicker-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 7C0FD99D5CA4A852EF4DFB9C /* Pods-AFHorizontalDayPicker-dummy.m */; };
+		1FF252A090F952483C0E70F8 /* NSDate+MTDates.h in Headers */ = {isa = PBXBuildFile; fileRef = B4E8B352DE46585A9EBE0FC1 /* NSDate+MTDates.h */; };
+		2BAF7FE3030C3B343C159C81 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A75BFD9AB77CC96FC02ABB0B /* Foundation.framework */; };
+		2F698CDECE61632951E8CD87 /* NSDateComponents+MTDates.h in Headers */ = {isa = PBXBuildFile; fileRef = 0E15DE14A70757AF223C575F /* NSDateComponents+MTDates.h */; };
+		329AE8865F90E9E428596FE6 /* AFDayCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 7366AC7811815E4E03CE3A9A /* AFDayCell.m */; };
+		3410719F71ECDB37499B11FA /* AFDayCell.h in Headers */ = {isa = PBXBuildFile; fileRef = EEF653CD93D1108478E85A0C /* AFDayCell.h */; };
+		404FD464C9BA949FA6478C65 /* NSDateComponents+MTDates.h in Headers */ = {isa = PBXBuildFile; fileRef = 0E15DE14A70757AF223C575F /* NSDateComponents+MTDates.h */; };
+		41AF5F076D1EA0577ED7D2C3 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4BAD16F0C98805B1435BF9D1 /* UIKit.framework */; };
+		4768C51E32FF071C3EC78AA7 /* AFDaysCollectionViewFlowLayout.h in Headers */ = {isa = PBXBuildFile; fileRef = FFB91744ABE9B90285ACF03C /* AFDaysCollectionViewFlowLayout.h */; };
+		5E4EC6B5C0EEB9B04E08A18B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A75BFD9AB77CC96FC02ABB0B /* Foundation.framework */; };
+		5E9E46C103ABCCE407060EC1 /* Pods-AFHorizontalDayPicker-MTDates-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 64444C10E30F0962FD84E98F /* Pods-AFHorizontalDayPicker-MTDates-dummy.m */; };
+		63B0D0974E6C6C1C2FCDA3FA /* NSDate+MTDates.h in Headers */ = {isa = PBXBuildFile; fileRef = B4E8B352DE46585A9EBE0FC1 /* NSDate+MTDates.h */; };
+		705AF9D34DFBC223DF501E9E /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4BAD16F0C98805B1435BF9D1 /* UIKit.framework */; };
+		70ACFF53A1CD37089A648AA5 /* AFDaysCollectionViewFlowLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = 664A7B120A6E267F158B0A62 /* AFDaysCollectionViewFlowLayout.m */; };
+		7D7B10D86195BCFBF51B10AD /* Pods-Tests-MTDates-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 30D20F7CCD8A82FC2CC47EBA /* Pods-Tests-MTDates-dummy.m */; };
+		85328F43A5A9180963D242A3 /* NSDateComponents+MTDates.m in Sources */ = {isa = PBXBuildFile; fileRef = CC0F4CB7CC8902FDA45F41FD /* NSDateComponents+MTDates.m */; };
+		8B901D3238A7DE9C01EB6D20 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A75BFD9AB77CC96FC02ABB0B /* Foundation.framework */; };
+		8DFFA8AA31EF2CF7F0CCF320 /* NSDate+MTDates.m in Sources */ = {isa = PBXBuildFile; fileRef = FDB1850E566CC3C9ABA718A8 /* NSDate+MTDates.m */; };
+		92E8E9B80F38AB2B119BEEF5 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A75BFD9AB77CC96FC02ABB0B /* Foundation.framework */; };
+		990AFA260642CDD703DF785B /* Pods-AFHorizontalDayPicker-AFHorizontalDayPicker-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = D02821BD1B81A94FB06CECBB /* Pods-AFHorizontalDayPicker-AFHorizontalDayPicker-dummy.m */; };
+		A1BBD4798598AB72AA980B52 /* NSDate+MTDates.m in Sources */ = {isa = PBXBuildFile; fileRef = FDB1850E566CC3C9ABA718A8 /* NSDate+MTDates.m */; };
+		A294D406B7E04C10D1142D80 /* AFHorizontalDayPicker.m in Sources */ = {isa = PBXBuildFile; fileRef = FE5D0CEDDA08A764DEE7D94F /* AFHorizontalDayPicker.m */; };
+		A350ACDDF7784EDAC58250CD /* AFDaysCollectionViewFlowLayout.h in Headers */ = {isa = PBXBuildFile; fileRef = FFB91744ABE9B90285ACF03C /* AFDaysCollectionViewFlowLayout.h */; };
+		AC42B72568C4904419761327 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A75BFD9AB77CC96FC02ABB0B /* Foundation.framework */; };
+		B56BD4CCAC371AF3337C12D6 /* AFHorizontalDayPicker.h in Headers */ = {isa = PBXBuildFile; fileRef = F0E2C222DC966C6D5D0B0762 /* AFHorizontalDayPicker.h */; };
+		BA1F25FCC65A733FF3AA1A7E /* Pods-Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = B8192094EC012959867B5713 /* Pods-Tests-dummy.m */; };
+		BA66E1126830EA065B55B8C1 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A75BFD9AB77CC96FC02ABB0B /* Foundation.framework */; };
+		CDF7BFE2335C696ADF2194AD /* AFHorizontalDayPicker.m in Sources */ = {isa = PBXBuildFile; fileRef = FE5D0CEDDA08A764DEE7D94F /* AFHorizontalDayPicker.m */; };
+		D418CA354C374C1F31D8F585 /* AFDaysCollectionViewFlowLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = 664A7B120A6E267F158B0A62 /* AFDaysCollectionViewFlowLayout.m */; };
+		E87EC5AD51C023F1DA0B2BB0 /* NSDateComponents+MTDates.m in Sources */ = {isa = PBXBuildFile; fileRef = CC0F4CB7CC8902FDA45F41FD /* NSDateComponents+MTDates.m */; };
+		F108CD2BBE736429D633F444 /* Pods-Tests-AFHorizontalDayPicker-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = C2FEE98642A045E1760F38C0 /* Pods-Tests-AFHorizontalDayPicker-dummy.m */; };
+		F35CEE6C31C8036C20C6159D /* AFHorizontalDayPicker.h in Headers */ = {isa = PBXBuildFile; fileRef = F0E2C222DC966C6D5D0B0762 /* AFHorizontalDayPicker.h */; };
+		FFFDC7EFFEFA668BF7ADADE4 /* AFDayCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 7366AC7811815E4E03CE3A9A /* AFDayCell.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		4111E11370BF520F7F077351 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 75BE14406EC9EA698EADC742 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 76C42B4DC1A52C40DEE02D01;
+			remoteInfo = "Pods-AFHorizontalDayPicker-MTDates";
+		};
+		514B8FCFC23ADDBEFD090749 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 75BE14406EC9EA698EADC742 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 76C42B4DC1A52C40DEE02D01;
+			remoteInfo = "Pods-AFHorizontalDayPicker-MTDates";
+		};
+		6A7F9365360E98C501D40A3A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 75BE14406EC9EA698EADC742 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C7C44D59510E133205938A6E;
+			remoteInfo = AFHorizontalDayPicker;
+		};
+		9EA85DEDB143CA824A63BDF4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 75BE14406EC9EA698EADC742 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 759DCFE0F3FAFF983B25FD29;
+			remoteInfo = "Pods-Tests-AFHorizontalDayPicker";
+		};
+		A46D1DAF3A79DDD873C95E32 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 75BE14406EC9EA698EADC742 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C7C44D59510E133205938A6E;
+			remoteInfo = AFHorizontalDayPicker;
+		};
+		BCF66BA690F9816DEC1D7D0E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 75BE14406EC9EA698EADC742 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 0E74389877C104A84F89D436;
+			remoteInfo = "Pods-AFHorizontalDayPicker-AFHorizontalDayPicker";
+		};
+		CD609EBBE4A321EBC1E9E7D7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 75BE14406EC9EA698EADC742 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4CFB4F2E9E4E35785F49645C;
+			remoteInfo = "Pods-Tests-MTDates";
+		};
+		FCB5355B72C2FD91BB16A7FD /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 75BE14406EC9EA698EADC742 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4CFB4F2E9E4E35785F49645C;
+			remoteInfo = "Pods-Tests-MTDates";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		067B1CA3328E82B6E13F9FE2 /* Podfile */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		0E15DE14A70757AF223C575F /* NSDateComponents+MTDates.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSDateComponents+MTDates.h"; path = "MTDates/NSDateComponents+MTDates.h"; sourceTree = "<group>"; };
+		1B04A13334584CFF608455EC /* libPods-AFHorizontalDayPicker-MTDates.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-AFHorizontalDayPicker-MTDates.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		26D39E7B23DA64273303D024 /* Pods-Tests-AFHorizontalDayPicker-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "Pods-Tests-AFHorizontalDayPicker-prefix.pch"; path = "../Pods-Tests-AFHorizontalDayPicker/Pods-Tests-AFHorizontalDayPicker-prefix.pch"; sourceTree = "<group>"; };
+		2B46FB39D9385E4F5590E425 /* Pods-AFHorizontalDayPicker-environment.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-AFHorizontalDayPicker-environment.h"; sourceTree = "<group>"; };
+		30D20F7CCD8A82FC2CC47EBA /* Pods-Tests-MTDates-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "Pods-Tests-MTDates-dummy.m"; path = "../Pods-Tests-MTDates/Pods-Tests-MTDates-dummy.m"; sourceTree = "<group>"; };
+		32E96CC1C145929E29EC01F8 /* Pods-Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		3B03EDDC4FCAAAC0F376E514 /* Pods-AFHorizontalDayPicker-AFHorizontalDayPicker-Private.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-AFHorizontalDayPicker-AFHorizontalDayPicker-Private.xcconfig"; sourceTree = "<group>"; };
+		45803DBA6820753089F6B4D2 /* Pods-AFHorizontalDayPicker-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-AFHorizontalDayPicker-resources.sh"; sourceTree = "<group>"; };
+		45858F7B16DC588D25154910 /* Pods-Tests-environment.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-Tests-environment.h"; sourceTree = "<group>"; };
+		49F8A8A650101DBF488C3457 /* Pods-AFHorizontalDayPicker-MTDates-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-AFHorizontalDayPicker-MTDates-prefix.pch"; sourceTree = "<group>"; };
+		4BAD16F0C98805B1435BF9D1 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/System/Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
+		5B17ED358A5BD19C4938835C /* Pods-AFHorizontalDayPicker-MTDates-Private.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-AFHorizontalDayPicker-MTDates-Private.xcconfig"; sourceTree = "<group>"; };
+		5F03A5E7625C70EC74C22768 /* libPods-Tests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Tests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		64444C10E30F0962FD84E98F /* Pods-AFHorizontalDayPicker-MTDates-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-AFHorizontalDayPicker-MTDates-dummy.m"; sourceTree = "<group>"; };
+		664A7B120A6E267F158B0A62 /* AFDaysCollectionViewFlowLayout.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = AFDaysCollectionViewFlowLayout.m; path = Pod/Classes/AFDaysCollectionViewFlowLayout.m; sourceTree = "<group>"; };
+		6FAB7BA9CA115B8E859BE978 /* Pods-Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Tests-resources.sh"; sourceTree = "<group>"; };
+		73125375AB7476BCDFC895B6 /* Pods-Tests-AFHorizontalDayPicker.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Tests-AFHorizontalDayPicker.xcconfig"; path = "../Pods-Tests-AFHorizontalDayPicker/Pods-Tests-AFHorizontalDayPicker.xcconfig"; sourceTree = "<group>"; };
+		7366AC7811815E4E03CE3A9A /* AFDayCell.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = AFDayCell.m; path = Pod/Classes/AFDayCell.m; sourceTree = "<group>"; };
+		7C0FD99D5CA4A852EF4DFB9C /* Pods-AFHorizontalDayPicker-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-AFHorizontalDayPicker-dummy.m"; sourceTree = "<group>"; };
+		81602468A69612A09043B63E /* Pods-AFHorizontalDayPicker.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-AFHorizontalDayPicker.release.xcconfig"; sourceTree = "<group>"; };
+		952D8A131ACECCB900B28E33 /* AFDefaultColorScheme.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = AFDefaultColorScheme.h; path = Pod/Classes/AFDefaultColorScheme.h; sourceTree = "<group>"; };
+		97187AD191B0DB2F37A8779C /* libPods-Tests-AFHorizontalDayPicker.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Tests-AFHorizontalDayPicker.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		973C948BD105230EB7996974 /* libPods-AFHorizontalDayPicker.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-AFHorizontalDayPicker.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A75BFD9AB77CC96FC02ABB0B /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		B2B9FCA86465F899790DF365 /* Pods-Tests-MTDates-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "Pods-Tests-MTDates-prefix.pch"; path = "../Pods-Tests-MTDates/Pods-Tests-MTDates-prefix.pch"; sourceTree = "<group>"; };
+		B4E8B352DE46585A9EBE0FC1 /* NSDate+MTDates.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSDate+MTDates.h"; path = "MTDates/NSDate+MTDates.h"; sourceTree = "<group>"; };
+		B8192094EC012959867B5713 /* Pods-Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-Tests-dummy.m"; sourceTree = "<group>"; };
+		B8FC86186797DA44B235252A /* AFHorizontalDayPicker.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AFHorizontalDayPicker.bundle; sourceTree = BUILT_PRODUCTS_DIR; };
+		C2FEE98642A045E1760F38C0 /* Pods-Tests-AFHorizontalDayPicker-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "Pods-Tests-AFHorizontalDayPicker-dummy.m"; path = "../Pods-Tests-AFHorizontalDayPicker/Pods-Tests-AFHorizontalDayPicker-dummy.m"; sourceTree = "<group>"; };
+		C3B37A1DB839CD3ABA9973D0 /* Pods-AFHorizontalDayPicker-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-AFHorizontalDayPicker-acknowledgements.plist"; sourceTree = "<group>"; };
+		C3F99778CEED56177F775878 /* Pods-AFHorizontalDayPicker-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-AFHorizontalDayPicker-acknowledgements.markdown"; sourceTree = "<group>"; };
+		C95417DA623E4EB0B59463FA /* libPods-Tests-MTDates.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Tests-MTDates.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		CC0F4CB7CC8902FDA45F41FD /* NSDateComponents+MTDates.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSDateComponents+MTDates.m"; path = "MTDates/NSDateComponents+MTDates.m"; sourceTree = "<group>"; };
+		D02821BD1B81A94FB06CECBB /* Pods-AFHorizontalDayPicker-AFHorizontalDayPicker-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-AFHorizontalDayPicker-AFHorizontalDayPicker-dummy.m"; sourceTree = "<group>"; };
+		D4B6EE6F82D70E3C3EACD047 /* Pods-AFHorizontalDayPicker-AFHorizontalDayPicker.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-AFHorizontalDayPicker-AFHorizontalDayPicker.xcconfig"; sourceTree = "<group>"; };
+		DDD6C3CD781D866BFB219ABA /* Pods-Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		DF9E6BD3491548BD1C470419 /* Pods-Tests-MTDates.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Tests-MTDates.xcconfig"; path = "../Pods-Tests-MTDates/Pods-Tests-MTDates.xcconfig"; sourceTree = "<group>"; };
+		E27565526A4F978D6B0E96D6 /* Pods-Tests-AFHorizontalDayPicker-Private.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Tests-AFHorizontalDayPicker-Private.xcconfig"; path = "../Pods-Tests-AFHorizontalDayPicker/Pods-Tests-AFHorizontalDayPicker-Private.xcconfig"; sourceTree = "<group>"; };
+		EA37083ACC7E5D6C9DE67D76 /* libPods-AFHorizontalDayPicker-AFHorizontalDayPicker.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-AFHorizontalDayPicker-AFHorizontalDayPicker.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		EDF99212E1389F6D6D756CB2 /* Pods-Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Tests.release.xcconfig"; sourceTree = "<group>"; };
+		EE94B3D57EC3CEA388FD03BA /* Pods-Tests-MTDates-Private.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Tests-MTDates-Private.xcconfig"; path = "../Pods-Tests-MTDates/Pods-Tests-MTDates-Private.xcconfig"; sourceTree = "<group>"; };
+		EEF653CD93D1108478E85A0C /* AFDayCell.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AFDayCell.h; path = Pod/Classes/AFDayCell.h; sourceTree = "<group>"; };
+		F03A913CFF0EB80E9579EF7E /* Pods-AFHorizontalDayPicker.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-AFHorizontalDayPicker.debug.xcconfig"; sourceTree = "<group>"; };
+		F0E2C222DC966C6D5D0B0762 /* AFHorizontalDayPicker.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AFHorizontalDayPicker.h; path = Pod/Classes/AFHorizontalDayPicker.h; sourceTree = "<group>"; };
+		F34FAF7C618800D68887794E /* Pods-AFHorizontalDayPicker-MTDates.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-AFHorizontalDayPicker-MTDates.xcconfig"; sourceTree = "<group>"; };
+		FA9832A585463A3F0A9398FC /* Pods-AFHorizontalDayPicker-AFHorizontalDayPicker-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-AFHorizontalDayPicker-AFHorizontalDayPicker-prefix.pch"; sourceTree = "<group>"; };
+		FCD919B35185E3DD9E03AF0C /* Pods-Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		FDB1850E566CC3C9ABA718A8 /* NSDate+MTDates.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSDate+MTDates.m"; path = "MTDates/NSDate+MTDates.m"; sourceTree = "<group>"; };
+		FE5D0CEDDA08A764DEE7D94F /* AFHorizontalDayPicker.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = AFHorizontalDayPicker.m; path = Pod/Classes/AFHorizontalDayPicker.m; sourceTree = "<group>"; };
+		FFB91744ABE9B90285ACF03C /* AFDaysCollectionViewFlowLayout.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AFDaysCollectionViewFlowLayout.h; path = Pod/Classes/AFDaysCollectionViewFlowLayout.h; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		073966DBD5DA4165741348BA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2BAF7FE3030C3B343C159C81 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0CB9A26FC32513D80ADD4670 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8B901D3238A7DE9C01EB6D20 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		32BF755A468B8C8E8F01427D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BA66E1126830EA065B55B8C1 /* Foundation.framework in Frameworks */,
+				705AF9D34DFBC223DF501E9E /* UIKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		641959B6A3AA7431ED492997 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				92E8E9B80F38AB2B119BEEF5 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6FC01AEB9A12094EA1DE9903 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9B984AC5200D187F42400B0F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AC42B72568C4904419761327 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D09D7BD53640E4741C56C7D4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5E4EC6B5C0EEB9B04E08A18B /* Foundation.framework in Frameworks */,
+				41AF5F076D1EA0577ED7D2C3 /* UIKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1C072D3278E81440BDE4CA7B /* Pods-Tests */ = {
+			isa = PBXGroup;
+			children = (
+				FCD919B35185E3DD9E03AF0C /* Pods-Tests-acknowledgements.markdown */,
+				DDD6C3CD781D866BFB219ABA /* Pods-Tests-acknowledgements.plist */,
+				B8192094EC012959867B5713 /* Pods-Tests-dummy.m */,
+				45858F7B16DC588D25154910 /* Pods-Tests-environment.h */,
+				6FAB7BA9CA115B8E859BE978 /* Pods-Tests-resources.sh */,
+				32E96CC1C145929E29EC01F8 /* Pods-Tests.debug.xcconfig */,
+				EDF99212E1389F6D6D756CB2 /* Pods-Tests.release.xcconfig */,
+			);
+			name = "Pods-Tests";
+			path = "Target Support Files/Pods-Tests";
+			sourceTree = "<group>";
+		};
+		450667FE6E63D12075F6B3DF /* MTDates */ = {
+			isa = PBXGroup;
+			children = (
+				B4E8B352DE46585A9EBE0FC1 /* NSDate+MTDates.h */,
+				FDB1850E566CC3C9ABA718A8 /* NSDate+MTDates.m */,
+				0E15DE14A70757AF223C575F /* NSDateComponents+MTDates.h */,
+				CC0F4CB7CC8902FDA45F41FD /* NSDateComponents+MTDates.m */,
+				FDAE6CAACB1E24C8D405A263 /* Support Files */,
+			);
+			path = MTDates;
+			sourceTree = "<group>";
+		};
+		4771636EB87F97A182FCF711 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				450667FE6E63D12075F6B3DF /* MTDates */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		692A3687B9BB1420B184815A = {
+			isa = PBXGroup;
+			children = (
+				067B1CA3328E82B6E13F9FE2 /* Podfile */,
+				892E390669AC9DD463B7E7A8 /* Development Pods */,
+				CBFCC812F9AB3F2466252ED2 /* Frameworks */,
+				4771636EB87F97A182FCF711 /* Pods */,
+				D872808463B38C993D6C1AD0 /* Products */,
+				D525DB6A0BAB861707AD5BC0 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		892E390669AC9DD463B7E7A8 /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				EF865ACBB622FEFDE4FA08B8 /* AFHorizontalDayPicker */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		A260E8EECA05E5CCF0F5CA0C /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				A75BFD9AB77CC96FC02ABB0B /* Foundation.framework */,
+				4BAD16F0C98805B1435BF9D1 /* UIKit.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		CBFCC812F9AB3F2466252ED2 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				A260E8EECA05E5CCF0F5CA0C /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		CD69544464E4CE4D84B68CE7 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				D4B6EE6F82D70E3C3EACD047 /* Pods-AFHorizontalDayPicker-AFHorizontalDayPicker.xcconfig */,
+				3B03EDDC4FCAAAC0F376E514 /* Pods-AFHorizontalDayPicker-AFHorizontalDayPicker-Private.xcconfig */,
+				D02821BD1B81A94FB06CECBB /* Pods-AFHorizontalDayPicker-AFHorizontalDayPicker-dummy.m */,
+				FA9832A585463A3F0A9398FC /* Pods-AFHorizontalDayPicker-AFHorizontalDayPicker-prefix.pch */,
+				73125375AB7476BCDFC895B6 /* Pods-Tests-AFHorizontalDayPicker.xcconfig */,
+				E27565526A4F978D6B0E96D6 /* Pods-Tests-AFHorizontalDayPicker-Private.xcconfig */,
+				C2FEE98642A045E1760F38C0 /* Pods-Tests-AFHorizontalDayPicker-dummy.m */,
+				26D39E7B23DA64273303D024 /* Pods-Tests-AFHorizontalDayPicker-prefix.pch */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/Pods-AFHorizontalDayPicker-AFHorizontalDayPicker";
+			sourceTree = "<group>";
+		};
+		D525DB6A0BAB861707AD5BC0 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				DAAE2FF446F3AEFA5CF94EA3 /* Pods-AFHorizontalDayPicker */,
+				1C072D3278E81440BDE4CA7B /* Pods-Tests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		D872808463B38C993D6C1AD0 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B8FC86186797DA44B235252A /* AFHorizontalDayPicker.bundle */,
+				973C948BD105230EB7996974 /* libPods-AFHorizontalDayPicker.a */,
+				EA37083ACC7E5D6C9DE67D76 /* libPods-AFHorizontalDayPicker-AFHorizontalDayPicker.a */,
+				1B04A13334584CFF608455EC /* libPods-AFHorizontalDayPicker-MTDates.a */,
+				5F03A5E7625C70EC74C22768 /* libPods-Tests.a */,
+				97187AD191B0DB2F37A8779C /* libPods-Tests-AFHorizontalDayPicker.a */,
+				C95417DA623E4EB0B59463FA /* libPods-Tests-MTDates.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		DAAE2FF446F3AEFA5CF94EA3 /* Pods-AFHorizontalDayPicker */ = {
+			isa = PBXGroup;
+			children = (
+				C3F99778CEED56177F775878 /* Pods-AFHorizontalDayPicker-acknowledgements.markdown */,
+				C3B37A1DB839CD3ABA9973D0 /* Pods-AFHorizontalDayPicker-acknowledgements.plist */,
+				7C0FD99D5CA4A852EF4DFB9C /* Pods-AFHorizontalDayPicker-dummy.m */,
+				2B46FB39D9385E4F5590E425 /* Pods-AFHorizontalDayPicker-environment.h */,
+				45803DBA6820753089F6B4D2 /* Pods-AFHorizontalDayPicker-resources.sh */,
+				F03A913CFF0EB80E9579EF7E /* Pods-AFHorizontalDayPicker.debug.xcconfig */,
+				81602468A69612A09043B63E /* Pods-AFHorizontalDayPicker.release.xcconfig */,
+			);
+			name = "Pods-AFHorizontalDayPicker";
+			path = "Target Support Files/Pods-AFHorizontalDayPicker";
+			sourceTree = "<group>";
+		};
+		EF865ACBB622FEFDE4FA08B8 /* AFHorizontalDayPicker */ = {
+			isa = PBXGroup;
+			children = (
+				952D8A131ACECCB900B28E33 /* AFDefaultColorScheme.h */,
+				EEF653CD93D1108478E85A0C /* AFDayCell.h */,
+				7366AC7811815E4E03CE3A9A /* AFDayCell.m */,
+				FFB91744ABE9B90285ACF03C /* AFDaysCollectionViewFlowLayout.h */,
+				664A7B120A6E267F158B0A62 /* AFDaysCollectionViewFlowLayout.m */,
+				F0E2C222DC966C6D5D0B0762 /* AFHorizontalDayPicker.h */,
+				FE5D0CEDDA08A764DEE7D94F /* AFHorizontalDayPicker.m */,
+				CD69544464E4CE4D84B68CE7 /* Support Files */,
+			);
+			name = AFHorizontalDayPicker;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		FDAE6CAACB1E24C8D405A263 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				F34FAF7C618800D68887794E /* Pods-AFHorizontalDayPicker-MTDates.xcconfig */,
+				5B17ED358A5BD19C4938835C /* Pods-AFHorizontalDayPicker-MTDates-Private.xcconfig */,
+				64444C10E30F0962FD84E98F /* Pods-AFHorizontalDayPicker-MTDates-dummy.m */,
+				49F8A8A650101DBF488C3457 /* Pods-AFHorizontalDayPicker-MTDates-prefix.pch */,
+				DF9E6BD3491548BD1C470419 /* Pods-Tests-MTDates.xcconfig */,
+				EE94B3D57EC3CEA388FD03BA /* Pods-Tests-MTDates-Private.xcconfig */,
+				30D20F7CCD8A82FC2CC47EBA /* Pods-Tests-MTDates-dummy.m */,
+				B2B9FCA86465F899790DF365 /* Pods-Tests-MTDates-prefix.pch */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/Pods-AFHorizontalDayPicker-MTDates";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		24FA13082CA0090F8B5B1D4E /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				12781C3647C03026D3831B6B /* AFDayCell.h in Headers */,
+				A350ACDDF7784EDAC58250CD /* AFDaysCollectionViewFlowLayout.h in Headers */,
+				B56BD4CCAC371AF3337C12D6 /* AFHorizontalDayPicker.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		73869F02FF0511D706F98DBE /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				63B0D0974E6C6C1C2FCDA3FA /* NSDate+MTDates.h in Headers */,
+				404FD464C9BA949FA6478C65 /* NSDateComponents+MTDates.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		91E1259F5884844394899CDC /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3410719F71ECDB37499B11FA /* AFDayCell.h in Headers */,
+				4768C51E32FF071C3EC78AA7 /* AFDaysCollectionViewFlowLayout.h in Headers */,
+				F35CEE6C31C8036C20C6159D /* AFHorizontalDayPicker.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AB428958B999B72E4886CB7C /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1FF252A090F952483C0E70F8 /* NSDate+MTDates.h in Headers */,
+				2F698CDECE61632951E8CD87 /* NSDateComponents+MTDates.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		0E74389877C104A84F89D436 /* Pods-AFHorizontalDayPicker-AFHorizontalDayPicker */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 47A6ED6697453982772D7D95 /* Build configuration list for PBXNativeTarget "Pods-AFHorizontalDayPicker-AFHorizontalDayPicker" */;
+			buildPhases = (
+				EEE77AFA5CBBE43F4BB950EE /* Sources */,
+				D09D7BD53640E4741C56C7D4 /* Frameworks */,
+				91E1259F5884844394899CDC /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3E099690C804C11B8F8FF95C /* PBXTargetDependency */,
+				CE8951E153424984AD3D27B0 /* PBXTargetDependency */,
+			);
+			name = "Pods-AFHorizontalDayPicker-AFHorizontalDayPicker";
+			productName = "Pods-AFHorizontalDayPicker-AFHorizontalDayPicker";
+			productReference = EA37083ACC7E5D6C9DE67D76 /* libPods-AFHorizontalDayPicker-AFHorizontalDayPicker.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		139B4208E7AAFDA718068915 /* Pods-Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0794AC78BD423F360BBA17AF /* Build configuration list for PBXNativeTarget "Pods-Tests" */;
+			buildPhases = (
+				1E7DEE147548ACBAA8F79388 /* Sources */,
+				9B984AC5200D187F42400B0F /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				366A7FF86AFF9A64045778E9 /* PBXTargetDependency */,
+				B02CB27B368D7771AB74B792 /* PBXTargetDependency */,
+			);
+			name = "Pods-Tests";
+			productName = "Pods-Tests";
+			productReference = 5F03A5E7625C70EC74C22768 /* libPods-Tests.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		3A0D9227A93514F954CBB31D /* Pods-AFHorizontalDayPicker */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8FF7D025164962084E3B2F59 /* Build configuration list for PBXNativeTarget "Pods-AFHorizontalDayPicker" */;
+			buildPhases = (
+				F7E616E5DBB08342FADE168E /* Sources */,
+				0CB9A26FC32513D80ADD4670 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				6C4A1A2E43A46F2A4ED054CA /* PBXTargetDependency */,
+				14ACA6B4F2D8CCF17E45FD68 /* PBXTargetDependency */,
+			);
+			name = "Pods-AFHorizontalDayPicker";
+			productName = "Pods-AFHorizontalDayPicker";
+			productReference = 973C948BD105230EB7996974 /* libPods-AFHorizontalDayPicker.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		4CFB4F2E9E4E35785F49645C /* Pods-Tests-MTDates */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0401D8223CE8976D06F399C4 /* Build configuration list for PBXNativeTarget "Pods-Tests-MTDates" */;
+			buildPhases = (
+				A09CC429F208A109B1C1F684 /* Sources */,
+				641959B6A3AA7431ED492997 /* Frameworks */,
+				AB428958B999B72E4886CB7C /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-Tests-MTDates";
+			productName = "Pods-Tests-MTDates";
+			productReference = C95417DA623E4EB0B59463FA /* libPods-Tests-MTDates.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		759DCFE0F3FAFF983B25FD29 /* Pods-Tests-AFHorizontalDayPicker */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5B21093818E7705F432165A5 /* Build configuration list for PBXNativeTarget "Pods-Tests-AFHorizontalDayPicker" */;
+			buildPhases = (
+				BDADB036756E67641710DB3A /* Sources */,
+				32BF755A468B8C8E8F01427D /* Frameworks */,
+				24FA13082CA0090F8B5B1D4E /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4ABC0388A518844B64DC7650 /* PBXTargetDependency */,
+				ABA9054CC70722C4BD7BB4AA /* PBXTargetDependency */,
+			);
+			name = "Pods-Tests-AFHorizontalDayPicker";
+			productName = "Pods-Tests-AFHorizontalDayPicker";
+			productReference = 97187AD191B0DB2F37A8779C /* libPods-Tests-AFHorizontalDayPicker.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		76C42B4DC1A52C40DEE02D01 /* Pods-AFHorizontalDayPicker-MTDates */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B84B66F582C1DEECF6623FD0 /* Build configuration list for PBXNativeTarget "Pods-AFHorizontalDayPicker-MTDates" */;
+			buildPhases = (
+				D280856ED18270AEBEC4E372 /* Sources */,
+				073966DBD5DA4165741348BA /* Frameworks */,
+				73869F02FF0511D706F98DBE /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-AFHorizontalDayPicker-MTDates";
+			productName = "Pods-AFHorizontalDayPicker-MTDates";
+			productReference = 1B04A13334584CFF608455EC /* libPods-AFHorizontalDayPicker-MTDates.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		C7C44D59510E133205938A6E /* AFHorizontalDayPicker */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FB0F419AFBEB44929AE97FCF /* Build configuration list for PBXNativeTarget "AFHorizontalDayPicker" */;
+			buildPhases = (
+				BD9B7BC6639E3F066A8000B9 /* Sources */,
+				6FC01AEB9A12094EA1DE9903 /* Frameworks */,
+				0AB6A609214BF8FC7DB1DD90 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = AFHorizontalDayPicker;
+			productName = AFHorizontalDayPicker;
+			productReference = B8FC86186797DA44B235252A /* AFHorizontalDayPicker.bundle */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		75BE14406EC9EA698EADC742 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0510;
+			};
+			buildConfigurationList = 5117E5AD50A1E24DFD78273D /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 692A3687B9BB1420B184815A;
+			productRefGroup = D872808463B38C993D6C1AD0 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C7C44D59510E133205938A6E /* AFHorizontalDayPicker */,
+				3A0D9227A93514F954CBB31D /* Pods-AFHorizontalDayPicker */,
+				0E74389877C104A84F89D436 /* Pods-AFHorizontalDayPicker-AFHorizontalDayPicker */,
+				76C42B4DC1A52C40DEE02D01 /* Pods-AFHorizontalDayPicker-MTDates */,
+				139B4208E7AAFDA718068915 /* Pods-Tests */,
+				759DCFE0F3FAFF983B25FD29 /* Pods-Tests-AFHorizontalDayPicker */,
+				4CFB4F2E9E4E35785F49645C /* Pods-Tests-MTDates */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		0AB6A609214BF8FC7DB1DD90 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1E7DEE147548ACBAA8F79388 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BA1F25FCC65A733FF3AA1A7E /* Pods-Tests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A09CC429F208A109B1C1F684 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8DFFA8AA31EF2CF7F0CCF320 /* NSDate+MTDates.m in Sources */,
+				E87EC5AD51C023F1DA0B2BB0 /* NSDateComponents+MTDates.m in Sources */,
+				7D7B10D86195BCFBF51B10AD /* Pods-Tests-MTDates-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BD9B7BC6639E3F066A8000B9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BDADB036756E67641710DB3A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FFFDC7EFFEFA668BF7ADADE4 /* AFDayCell.m in Sources */,
+				D418CA354C374C1F31D8F585 /* AFDaysCollectionViewFlowLayout.m in Sources */,
+				CDF7BFE2335C696ADF2194AD /* AFHorizontalDayPicker.m in Sources */,
+				F108CD2BBE736429D633F444 /* Pods-Tests-AFHorizontalDayPicker-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D280856ED18270AEBEC4E372 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A1BBD4798598AB72AA980B52 /* NSDate+MTDates.m in Sources */,
+				85328F43A5A9180963D242A3 /* NSDateComponents+MTDates.m in Sources */,
+				5E9E46C103ABCCE407060EC1 /* Pods-AFHorizontalDayPicker-MTDates-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EEE77AFA5CBBE43F4BB950EE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				329AE8865F90E9E428596FE6 /* AFDayCell.m in Sources */,
+				70ACFF53A1CD37089A648AA5 /* AFDaysCollectionViewFlowLayout.m in Sources */,
+				A294D406B7E04C10D1142D80 /* AFHorizontalDayPicker.m in Sources */,
+				990AFA260642CDD703DF785B /* Pods-AFHorizontalDayPicker-AFHorizontalDayPicker-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F7E616E5DBB08342FADE168E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				129EEF443E52BEED36F8DC07 /* Pods-AFHorizontalDayPicker-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		14ACA6B4F2D8CCF17E45FD68 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-AFHorizontalDayPicker-MTDates";
+			target = 76C42B4DC1A52C40DEE02D01 /* Pods-AFHorizontalDayPicker-MTDates */;
+			targetProxy = 514B8FCFC23ADDBEFD090749 /* PBXContainerItemProxy */;
+		};
+		366A7FF86AFF9A64045778E9 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-Tests-AFHorizontalDayPicker";
+			target = 759DCFE0F3FAFF983B25FD29 /* Pods-Tests-AFHorizontalDayPicker */;
+			targetProxy = 9EA85DEDB143CA824A63BDF4 /* PBXContainerItemProxy */;
+		};
+		3E099690C804C11B8F8FF95C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = AFHorizontalDayPicker;
+			target = C7C44D59510E133205938A6E /* AFHorizontalDayPicker */;
+			targetProxy = 6A7F9365360E98C501D40A3A /* PBXContainerItemProxy */;
+		};
+		4ABC0388A518844B64DC7650 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = AFHorizontalDayPicker;
+			target = C7C44D59510E133205938A6E /* AFHorizontalDayPicker */;
+			targetProxy = A46D1DAF3A79DDD873C95E32 /* PBXContainerItemProxy */;
+		};
+		6C4A1A2E43A46F2A4ED054CA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-AFHorizontalDayPicker-AFHorizontalDayPicker";
+			target = 0E74389877C104A84F89D436 /* Pods-AFHorizontalDayPicker-AFHorizontalDayPicker */;
+			targetProxy = BCF66BA690F9816DEC1D7D0E /* PBXContainerItemProxy */;
+		};
+		ABA9054CC70722C4BD7BB4AA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-Tests-MTDates";
+			target = 4CFB4F2E9E4E35785F49645C /* Pods-Tests-MTDates */;
+			targetProxy = CD609EBBE4A321EBC1E9E7D7 /* PBXContainerItemProxy */;
+		};
+		B02CB27B368D7771AB74B792 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-Tests-MTDates";
+			target = 4CFB4F2E9E4E35785F49645C /* Pods-Tests-MTDates */;
+			targetProxy = FCB5355B72C2FD91BB16A7FD /* PBXContainerItemProxy */;
+		};
+		CE8951E153424984AD3D27B0 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-AFHorizontalDayPicker-MTDates";
+			target = 76C42B4DC1A52C40DEE02D01 /* Pods-AFHorizontalDayPicker-MTDates */;
+			targetProxy = 4111E11370BF520F7F077351 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		09F880F57EB47E1EBF6A0062 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3B03EDDC4FCAAAC0F376E514 /* Pods-AFHorizontalDayPicker-AFHorizontalDayPicker-Private.xcconfig */;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = NO;
+				DSTROOT = /tmp/xcodeproj.dst;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/Pods-AFHorizontalDayPicker-AFHorizontalDayPicker/Pods-AFHorizontalDayPicker-AFHorizontalDayPicker-prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "$(BUILT_PRODUCTS_DIR)";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PUBLIC_HEADERS_FOLDER_PATH = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		0F611148FCC9D6EA53F5FE4E /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E27565526A4F978D6B0E96D6 /* Pods-Tests-AFHorizontalDayPicker-Private.xcconfig */;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = YES;
+				DSTROOT = /tmp/xcodeproj.dst;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/Pods-Tests-AFHorizontalDayPicker/Pods-Tests-AFHorizontalDayPicker-prefix.pch";
+				INSTALL_PATH = "$(BUILT_PRODUCTS_DIR)";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				OTHER_CFLAGS = (
+					"-DNS_BLOCK_ASSERTIONS=1",
+					"$(inherited)",
+				);
+				OTHER_CPLUSPLUSFLAGS = (
+					"-DNS_BLOCK_ASSERTIONS=1",
+					"$(inherited)",
+				);
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PUBLIC_HEADERS_FOLDER_PATH = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		1462B6F96ED887EE53ECFB9E /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = EE94B3D57EC3CEA388FD03BA /* Pods-Tests-MTDates-Private.xcconfig */;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = YES;
+				DSTROOT = /tmp/xcodeproj.dst;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/Pods-Tests-MTDates/Pods-Tests-MTDates-prefix.pch";
+				INSTALL_PATH = "$(BUILT_PRODUCTS_DIR)";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				OTHER_CFLAGS = (
+					"-DNS_BLOCK_ASSERTIONS=1",
+					"$(inherited)",
+				);
+				OTHER_CPLUSPLUSFLAGS = (
+					"-DNS_BLOCK_ASSERTIONS=1",
+					"$(inherited)",
+				);
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PUBLIC_HEADERS_FOLDER_PATH = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		14834703E2AE343E6AC070DB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Release;
+		};
+		34E155B34AC5AD0783D1C5C6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 32E96CC1C145929E29EC01F8 /* Pods-Tests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = NO;
+				DSTROOT = /tmp/xcodeproj.dst;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "$(BUILT_PRODUCTS_DIR)";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PUBLIC_HEADERS_FOLDER_PATH = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		49870B2040035CDE4E6AAAA6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3B03EDDC4FCAAAC0F376E514 /* Pods-AFHorizontalDayPicker-AFHorizontalDayPicker-Private.xcconfig */;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = YES;
+				DSTROOT = /tmp/xcodeproj.dst;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/Pods-AFHorizontalDayPicker-AFHorizontalDayPicker/Pods-AFHorizontalDayPicker-AFHorizontalDayPicker-prefix.pch";
+				INSTALL_PATH = "$(BUILT_PRODUCTS_DIR)";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				OTHER_CFLAGS = (
+					"-DNS_BLOCK_ASSERTIONS=1",
+					"$(inherited)",
+				);
+				OTHER_CPLUSPLUSFLAGS = (
+					"-DNS_BLOCK_ASSERTIONS=1",
+					"$(inherited)",
+				);
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PUBLIC_HEADERS_FOLDER_PATH = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		4A223A4DC1A6038F5B10AAC2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Debug;
+		};
+		531F0D1B55638E17A18DBD10 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E27565526A4F978D6B0E96D6 /* Pods-Tests-AFHorizontalDayPicker-Private.xcconfig */;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = NO;
+				DSTROOT = /tmp/xcodeproj.dst;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/Pods-Tests-AFHorizontalDayPicker/Pods-Tests-AFHorizontalDayPicker-prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "$(BUILT_PRODUCTS_DIR)";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PUBLIC_HEADERS_FOLDER_PATH = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		5D0D0A08C7C9DF6B575D9AFB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				STRIP_INSTALLED_PRODUCT = NO;
+			};
+			name = Debug;
+		};
+		7483096F027E1576C78D51C2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = EE94B3D57EC3CEA388FD03BA /* Pods-Tests-MTDates-Private.xcconfig */;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = NO;
+				DSTROOT = /tmp/xcodeproj.dst;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/Pods-Tests-MTDates/Pods-Tests-MTDates-prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "$(BUILT_PRODUCTS_DIR)";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PUBLIC_HEADERS_FOLDER_PATH = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		74F2B8EBC954C09ADEBC88A8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = EDF99212E1389F6D6D756CB2 /* Pods-Tests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = YES;
+				DSTROOT = /tmp/xcodeproj.dst;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				INSTALL_PATH = "$(BUILT_PRODUCTS_DIR)";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				OTHER_CFLAGS = (
+					"-DNS_BLOCK_ASSERTIONS=1",
+					"$(inherited)",
+				);
+				OTHER_CPLUSPLUSFLAGS = (
+					"-DNS_BLOCK_ASSERTIONS=1",
+					"$(inherited)",
+				);
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PUBLIC_HEADERS_FOLDER_PATH = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		7D9575F4EB39F71B40368220 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5B17ED358A5BD19C4938835C /* Pods-AFHorizontalDayPicker-MTDates-Private.xcconfig */;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = NO;
+				DSTROOT = /tmp/xcodeproj.dst;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/Pods-AFHorizontalDayPicker-MTDates/Pods-AFHorizontalDayPicker-MTDates-prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "$(BUILT_PRODUCTS_DIR)";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PUBLIC_HEADERS_FOLDER_PATH = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		8D435D122F48D7F03564038D /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 81602468A69612A09043B63E /* Pods-AFHorizontalDayPicker.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = YES;
+				DSTROOT = /tmp/xcodeproj.dst;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				INSTALL_PATH = "$(BUILT_PRODUCTS_DIR)";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				OTHER_CFLAGS = (
+					"-DNS_BLOCK_ASSERTIONS=1",
+					"$(inherited)",
+				);
+				OTHER_CPLUSPLUSFLAGS = (
+					"-DNS_BLOCK_ASSERTIONS=1",
+					"$(inherited)",
+				);
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PUBLIC_HEADERS_FOLDER_PATH = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		BB3387A1921001868B238A89 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				COPY_PHASE_STRIP = NO;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_PREPROCESSOR_DEFINITIONS = "RELEASE=1";
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				STRIP_INSTALLED_PRODUCT = NO;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		CFB2CD71D97D38F6518FCA02 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5B17ED358A5BD19C4938835C /* Pods-AFHorizontalDayPicker-MTDates-Private.xcconfig */;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = YES;
+				DSTROOT = /tmp/xcodeproj.dst;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/Pods-AFHorizontalDayPicker-MTDates/Pods-AFHorizontalDayPicker-MTDates-prefix.pch";
+				INSTALL_PATH = "$(BUILT_PRODUCTS_DIR)";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				OTHER_CFLAGS = (
+					"-DNS_BLOCK_ASSERTIONS=1",
+					"$(inherited)",
+				);
+				OTHER_CPLUSPLUSFLAGS = (
+					"-DNS_BLOCK_ASSERTIONS=1",
+					"$(inherited)",
+				);
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PUBLIC_HEADERS_FOLDER_PATH = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F59465B114AC8D5B2B3D7CD1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F03A913CFF0EB80E9579EF7E /* Pods-AFHorizontalDayPicker.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = NO;
+				DSTROOT = /tmp/xcodeproj.dst;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "$(BUILT_PRODUCTS_DIR)";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PUBLIC_HEADERS_FOLDER_PATH = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		0401D8223CE8976D06F399C4 /* Build configuration list for PBXNativeTarget "Pods-Tests-MTDates" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7483096F027E1576C78D51C2 /* Debug */,
+				1462B6F96ED887EE53ECFB9E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0794AC78BD423F360BBA17AF /* Build configuration list for PBXNativeTarget "Pods-Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				34E155B34AC5AD0783D1C5C6 /* Debug */,
+				74F2B8EBC954C09ADEBC88A8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		47A6ED6697453982772D7D95 /* Build configuration list for PBXNativeTarget "Pods-AFHorizontalDayPicker-AFHorizontalDayPicker" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				09F880F57EB47E1EBF6A0062 /* Debug */,
+				49870B2040035CDE4E6AAAA6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5117E5AD50A1E24DFD78273D /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5D0D0A08C7C9DF6B575D9AFB /* Debug */,
+				BB3387A1921001868B238A89 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5B21093818E7705F432165A5 /* Build configuration list for PBXNativeTarget "Pods-Tests-AFHorizontalDayPicker" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				531F0D1B55638E17A18DBD10 /* Debug */,
+				0F611148FCC9D6EA53F5FE4E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8FF7D025164962084E3B2F59 /* Build configuration list for PBXNativeTarget "Pods-AFHorizontalDayPicker" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F59465B114AC8D5B2B3D7CD1 /* Debug */,
+				8D435D122F48D7F03564038D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B84B66F582C1DEECF6623FD0 /* Build configuration list for PBXNativeTarget "Pods-AFHorizontalDayPicker-MTDates" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7D9575F4EB39F71B40368220 /* Debug */,
+				CFB2CD71D97D38F6518FCA02 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FB0F419AFBEB44929AE97FCF /* Build configuration list for PBXNativeTarget "AFHorizontalDayPicker" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4A223A4DC1A6038F5B10AAC2 /* Debug */,
+				14834703E2AE343E6AC070DB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 75BE14406EC9EA698EADC742 /* Project object */;
+}

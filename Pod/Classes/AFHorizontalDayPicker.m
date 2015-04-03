@@ -9,6 +9,7 @@
 #import "AFHorizontalDayPicker.h"
 #import "AFDaysCollectionViewFlowLayout.h"
 #import "NSDate+MTDates.h"
+#import "AFDefaultColorScheme.h"
 
 @interface AFHorizontalDayPicker()<UICollectionViewDataSource, UICollectionViewDelegate, UICollectionViewDelegateFlowLayout>
 
@@ -173,56 +174,63 @@
 
 - (void)setActiveAppearanceWithCell:(AFDayCell *)cell{
     
-    cell.dayNumber.font = (_dayNumberActiveFont)?:[UIFont fontWithName:@"HelveticaNeue-Thin" size:25.0f];
-    cell.dayNumber.textColor = (_dayNumberActiveColor)?:[UIColor blackColor];
+    cell.dayNumber.font = (_dayNumberActiveFont)?:default_dayNumberActiveFont;
+    cell.dayNumber.textColor = (_dayNumberActiveColor)?:default_dayNumberActiveColor;
     
-    cell.dayName.font = (_dayNameActiveFont)?:[UIFont fontWithName:@"HelveticaNeue" size:12.0f];
-    cell.dayName.textColor = (_dayNameActiveColor)?:[UIColor blackColor];
+    cell.dayName.font = (_dayNameActiveFont)?:default_dayNameActiveFont;
+    cell.dayName.textColor = (_dayNameActiveColor)?:default_dayNameActiveColor;
     
-    cell.contentView.backgroundColor = (_backgroundActiveColor)?:[UIColor whiteColor];
+    cell.leftSeparatorView.backgroundColor = (_separatorActiveColor)?:default_separatorActiveColor;
+    
+    cell.contentView.backgroundColor = (_backgroundActiveColor)?:default_backgroundActiveColor;
     
 }
 
 - (void)setInactiveAppearanceWithCell:(AFDayCell *)cell{
     
-    cell.dayNumber.font = (_dayNumberInactiveFont)?:[UIFont fontWithName:@"HelveticaNeue-Thin" size:25.0f];
-    cell.dayNumber.textColor = (_dayNumberInactiveColor)?:[UIColor grayColor];
+    cell.dayNumber.font = (_dayNumberInactiveFont)?:default_dayNumberInactiveFont;
+    cell.dayNumber.textColor = (_dayNumberInactiveColor)?:default_dayNameInactiveColor;
     
-    cell.dayName.font = (_dayNameInactiveFont)?:[UIFont fontWithName:@"HelveticaNeue" size:12.0f];
-    cell.dayName.textColor = (_dayNameInactiveColor)?:[UIColor grayColor];
+    cell.dayName.font = (_dayNameInactiveFont)?:default_dayNameInactiveFont;
+    cell.dayName.textColor = (_dayNameInactiveColor)?:default_dayNameInactiveColor;
     
-    cell.contentView.backgroundColor = (_backgroundInactiveColor)?:[UIColor whiteColor];
+    cell.leftSeparatorView.backgroundColor = (_separatorInactiveColor)?:default_separatorInactiveColor;
+    
+    cell.contentView.backgroundColor = (_backgroundInactiveColor)?:default_backgroundInactiveColor;
 }
 
 - (void)setSelectedAppearanceWithCell:(AFDayCell *)cell{
     
-    cell.dayNumber.font = (_dayNumberSelectedFont)?:[UIFont fontWithName:@"HelveticaNeue-Thin" size:25.0f];
-    cell.dayNumber.textColor = (_dayNumberSelectedColor)?:[UIColor whiteColor];
+    cell.dayNumber.font = (_dayNumberSelectedFont)?:default_dayNumberSelectedFont;
+    cell.dayNumber.textColor = (_dayNumberSelectedColor)?:default_dayNumberSelectedColor;
     
-    cell.dayName.font = (_dayNameSelectedFont)?:[UIFont fontWithName:@"HelveticaNeue" size:12.0f];
-    cell.dayName.textColor = (_dayNameSelectedColor)?:[UIColor whiteColor];
+    cell.dayName.font = (_dayNameSelectedFont)?:default_dayNameSelectedFont;
+    cell.dayName.textColor = (_dayNameSelectedColor)?:default_dayNameSelectedColor;
     
-    cell.contentView.backgroundColor = (_backgroundSelectedColor)?:[UIColor colorWithRed:20.0f/255.0f green:128.0f/255.0f blue:255.0f/255.0f alpha:1.0f];
-
+    cell.leftSeparatorView.backgroundColor = (_separatorSelectedColor)?:default_separatorSelectedColor;
+    
+    cell.contentView.backgroundColor = (_backgroundSelectedColor)?:default_backgroundSelectedColor;
 }
 
 - (AFDayCell *)horizontalDayPicker:(AFHorizontalDayPicker *)picker requestCustomizedCellFromCell:(AFDayCell*)cell{
     
     [cell.contentView.subviews makeObjectsPerformSelector:@selector(removeFromSuperview)];
     
+    // configure day number (example: 23 or 1 or 45)
     UILabel *dayNumber = [[UILabel alloc] initWithFrame:CGRectMake(.0f, .0f, cell.contentView.frame.size.width, cell.contentView.frame.size.height/3*2)];
-    
     dayNumber.textAlignment = NSTextAlignmentCenter;
     dayNumber.text = [NSString stringWithFormat:@"%@", @([cell.date mt_dayOfMonth])];
     cell.dayNumber = dayNumber;
     [cell.contentView addSubview:dayNumber];
     
+    // configure day name (example: Thu, Чт)
     UILabel *dayName = [[UILabel alloc] initWithFrame:CGRectMake(.0f, cell.contentView.frame.size.height/3*2 - cell.contentView.frame.size.height/6, cell.contentView.frame.size.width, cell.contentView.frame.size.height/3)];
     dayName.textAlignment = NSTextAlignmentCenter;
     dayName.text = [cell.date mt_stringFromDateWithFormat:@"EEE" localized:YES];
     cell.dayName = dayName;
     [cell.contentView addSubview:dayName];
     
+    // configure separators
     if (!cell.active) {
         [self setInactiveAppearanceWithCell:cell];
     }else{

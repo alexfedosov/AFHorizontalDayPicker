@@ -20,13 +20,14 @@
 {
     [super viewDidLoad];
 	
-    
     AFHorizontalDayPicker *picker = [[AFHorizontalDayPicker alloc] initWithFrame:CGRectMake(0, 40, self.view.frame.size.width, 50.0f)];
     picker.delegate = self;
     picker.startDate = [[NSDate date] mt_dateDaysBefore:14];
     picker.endDate = [[NSDate date] mt_dateDaysAfter:14];
     [picker selectTodayAnimated:NO];
-    
+    picker.showSeparatorsBetweenCells = YES;
+    picker.showTopSeparator = YES;
+    picker.showBottomSeparator = YES;
     [self.view addSubview:picker];
 }
 

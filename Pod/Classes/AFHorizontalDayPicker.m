@@ -14,6 +14,8 @@
 @interface AFHorizontalDayPicker()<UICollectionViewDataSource, UICollectionViewDelegate, UICollectionViewDelegateFlowLayout>
 
 @property (nonatomic, strong) UICollectionView *daysCollectionView;
+@property (nonatomic, strong) UIView *topSeparator;
+@property (nonatomic, strong) UIView *bottomSeparator;
 
 @end
 
@@ -79,7 +81,7 @@
     [layout setMinimumInteritemSpacing:.0f];
     [layout setMinimumLineSpacing:.0f];
     
-    self.daysCollectionView = [[UICollectionView alloc] initWithFrame:self.bounds
+    self.daysCollectionView = [[UICollectionView alloc] initWithFrame:CGRectMake(.0f, .5f, self.frame.size.width, self.frame.size.height - 1.0f)
                                                  collectionViewLayout:layout];
     [self.daysCollectionView setDataSource:self];
     [self.daysCollectionView setDelegate:self];
@@ -87,8 +89,24 @@
     [self.daysCollectionView registerClass:[AFDayCell class] forCellWithReuseIdentifier:NSStringFromClass([AFDayCell class])];
     [self.daysCollectionView setBackgroundColor:[UIColor clearColor]];
     [self.daysCollectionView setShowsHorizontalScrollIndicator:NO];
-    
+    self.daysCollectionView.clipsToBounds = YES;
     [self addSubview:self.daysCollectionView];
+    
+    self.topSeparator = [[UIView alloc] initWithFrame:CGRectMake(.0f, .0f, self.bounds.size.width, .5f)];
+    self.bottomSeparator = [[UIView alloc] initWithFrame:CGRectMake(.0f, self.bounds.size.height - 1.f, self.bounds.size.width, .5f)];
+    
+    if (!_topAndBottomSeparatorsColor) {
+        _topAndBottomSeparatorsColor = default_separatorActiveColor;
+    }
+    
+    self.topSeparator.backgroundColor = _topAndBottomSeparatorsColor;
+    self.bottomSeparator.backgroundColor = _topAndBottomSeparatorsColor;
+    
+    self.topSeparator.hidden = !_showTopSeparator;
+    self.bottomSeparator.hidden = !_bottomSeparator;
+    
+    [self addSubview:self.topSeparator];
+    [self addSubview:self.bottomSeparator];
 }
 
 - (void)layoutSubviews{
@@ -96,6 +114,24 @@
     
     self.daysCollectionView.frame = self.bounds;
     
+}
+
+- (void)setTopAndBottomSeparatorsColor:(UIColor *)topAndBottomSeparatorsColor{
+    _topAndBottomSeparatorsColor = topAndBottomSeparatorsColor;
+    self.topSeparator.backgroundColor = _topAndBottomSeparatorsColor;
+    self.bottomSeparator.backgroundColor = _topAndBottomSeparatorsColor;
+}
+
+- (void)setShowBottomSeparator:(BOOL)showBottomSeparator{
+    _showBottomSeparator = showBottomSeparator;
+    self.bottomSeparator.hidden = !_bottomSeparator;
+    [self.bottomSeparator setNeedsDisplay];
+}
+
+- (void)setShowTopSeparator:(BOOL)showTopSeparator{
+    _showTopSeparator = showTopSeparator;
+    self.topSeparator.hidden = !_showTopSeparator;
+    [self.topSeparator setNeedsDisplay];
 }
 
 - (void)setStartDate:(NSDate *)startDate{
@@ -181,6 +217,7 @@
     cell.dayName.textColor = (_dayNameActiveColor)?:default_dayNameActiveColor;
     
     cell.leftSeparatorView.backgroundColor = (_separatorActiveColor)?:default_separatorActiveColor;
+    cell.rightSeparatorView.backgroundColor = (_separatorActiveColor)?:default_separatorActiveColor;
     
     cell.contentView.backgroundColor = (_backgroundActiveColor)?:default_backgroundActiveColor;
     
@@ -195,6 +232,7 @@
     cell.dayName.textColor = (_dayNameInactiveColor)?:default_dayNameInactiveColor;
     
     cell.leftSeparatorView.backgroundColor = (_separatorInactiveColor)?:default_separatorInactiveColor;
+    cell.rightSeparatorView.backgroundColor = (_separatorInactiveColor)?:default_separatorInactiveColor;
     
     cell.contentView.backgroundColor = (_backgroundInactiveColor)?:default_backgroundInactiveColor;
 }
@@ -208,6 +246,7 @@
     cell.dayName.textColor = (_dayNameSelectedColor)?:default_dayNameSelectedColor;
     
     cell.leftSeparatorView.backgroundColor = (_separatorSelectedColor)?:default_separatorSelectedColor;
+    cell.rightSeparatorView.backgroundColor = (_separatorSelectedColor)?:default_separatorSelectedColor;
     
     cell.contentView.backgroundColor = (_backgroundSelectedColor)?:default_backgroundSelectedColor;
 }
@@ -231,6 +270,24 @@
     [cell.contentView addSubview:dayName];
     
     // configure separators
+    UIView *leftSeparator = [[UIView alloc] initWithFrame:CGRectMake(.0f, .0f, .5f, cell.contentView.frame.size.height)];
+    cell.leftSeparatorView = leftSeparator;
+    [cell.contentView addSubview:cell.leftSeparatorView];
+    
+    UIView *rightSeparator = [[UIView alloc] initWithFrame:CGRectMake(cell.contentView.frame.size.width - .5f, .0f, .5f, cell.contentView.frame.size.height)];
+    cell.rightSeparatorView = rightSeparator;
+    [cell.contentView addSubview:cell.rightSeparatorView];
+    
+    NSIndexPath *indexPath = [self indexPathForDate:cell.date];
+    
+    if (self.showSeparatorsBetweenCells) {
+        cell.leftSeparatorView.hidden = !(indexPath.row == 0);
+        cell.rightSeparatorView.hidden = NO;
+    }else{
+        cell.leftSeparatorView.hidden = YES;
+        cell.rightSeparatorView.hidden = YES;
+    }
+    
     if (!cell.active) {
         [self setInactiveAppearanceWithCell:cell];
     }else{

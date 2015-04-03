@@ -9,7 +9,7 @@
 
 Pod::Spec.new do |s|
   s.name             = "AFHorizontalDayPicker"
-  s.version          = "0.1.0"
+  s.version          = "0.2.0"
   s.summary          = "AFHorizontalDayPicker is clean and simple day picker based on UICollectionView"
   s.homepage         = "https://github.com/alexfedosov/AFHorizontalDayPicker"
   s.screenshots     = "https://raw.github.com/alexfedosov/AFHorizontalDayPicker/master/Screens/2.png", "https://raw.github.com/alexfedosov/AFHorizontalDayPicker/master/Screens/animation.gif"

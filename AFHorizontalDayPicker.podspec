@@ -12,7 +12,7 @@ Pod::Spec.new do |s|
   s.version          = "0.1.0"
   s.summary          = "AFHorizontalDayPicker is clean and simple day picker based on UICollectionView"
   s.homepage         = "https://github.com/alexfedosov/AFHorizontalDayPicker"
-  s.screenshots     = "https://raw.github.com/alexfedosov/AFHorizontalDayPicker/master/Screens/2.png", "https://raw.github.com/alexfedosov/AFHorizontalDayPicker/master/Screens/3.png"
+  s.screenshots     = "https://raw.github.com/alexfedosov/AFHorizontalDayPicker/master/Screens/2.png", "https://raw.github.com/alexfedosov/AFHorizontalDayPicker/master/Screens/animation.gif"
   s.license          = 'MIT'
   s.author           = { "Alexander Fedosov" => "alexander.a.fedosov@gmail.com" }
   s.source           = { :git => "https://github.com/alexfedosov/AFHorizontalDayPicker.git", :tag => s.version.to_s }

@@ -1,14 +1,12 @@
 # AFHorizontalDayPicker
 
-[![CI Status](http://img.shields.io/travis/Alexander Fedosov/AFHorizontalDayPicker.svg?style=flat)](https://travis-ci.org/Alexander Fedosov/AFHorizontalDayPicker)
 [![Version](https://img.shields.io/cocoapods/v/AFHorizontalDayPicker.svg?style=flat)](http://cocoapods.org/pods/AFHorizontalDayPicker)
 [![License](https://img.shields.io/cocoapods/l/AFHorizontalDayPicker.svg?style=flat)](http://cocoapods.org/pods/AFHorizontalDayPicker)
 [![Platform](https://img.shields.io/cocoapods/p/AFHorizontalDayPicker.svg?style=flat)](http://cocoapods.org/pods/AFHorizontalDayPicker)
 
 [![](https://raw.github.com/alexfedosov/AFHorizontalDayPicker/master/Screens/2.png)](https://raw.github.com/alexfedosov/AFHorizontalDayPicker/master/Screens/2.png)
-[![](https://raw.github.com/alexfedosov/AFHorizontalDayPicker/master/Screens/3.png)](https://raw.github.com/alexfedosov/AFHorizontalDayPicker/master/Screens/3.png)
-[![](https://raw.github.com/alexfedosov/AFHorizontalDayPicker/master/Screens/4.png)](https://raw.github.com/alexfedosov/AFHorizontalDayPicker/master/Screens/4.png)
-[![](https://raw.github.com/alexfedosov/AFHorizontalDayPicker/master/Screens/5.png)](https://raw.github.com/alexfedosov/AFHorizontalDayPicker/master/Screens/5.png)
+[![](https://raw.github.com/alexfedosov/AFHorizontalDayPicker/master/Screens/animation.gif)](https://raw.github.com/alexfedosov/AFHorizontalDayPicker/master/Screens/animation.gif)
+
 
 ## Installation
 
@@ -58,7 +56,9 @@ Implement the required delegate method to be notified when a new day item is sel
 
 ```
 
-## Appearance configuration (Optional: all colors and fonts)
+## Appearance configuration
+
+All colors and fonts are optional.
 
 First way:
 
@@ -84,12 +84,30 @@ First way:
 @property (nonatomic, strong) UIColor *backgroundInactiveColor;
 @property (nonatomic, strong) UIColor *backgroundSelectedColor;
 
+@property (nonatomic, assign) BOOL showSeparatorsBetweenCells;
+@property (nonatomic, assign) BOOL showTopSeparator;
+@property (nonatomic, assign) BOOL showBottomSeparator;
+
+@property (nonatomic, strong) UIColor *separatorActiveColor;
+@property (nonatomic, strong) UIColor *separatorInactiveColor;
+@property (nonatomic, strong) UIColor *separatorSelectedColor;
+
+@property (nonatomic, strong) UIColor *topAndBottomSeparatorsColor;
+
 ```
 
 Second way - use optional delegate to configure custom cell:
 
 ``` objective-c
 - (AFDayCell *)horizontalDayPicker:(AFHorizontalDayPicker *)picker requestCustomizedCellFromCell:(AFDayCell*)cell;
+```
+
+##Animation
+
+Spring animation (disabled by default!) can be enabled by property. Animation tuning will be available soon.
+
+``` objective-c
+@property (nonatomic, assign) BOOL animateScrolling;
 ```
 
 ##Example

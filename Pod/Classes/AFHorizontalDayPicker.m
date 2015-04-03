@@ -148,39 +148,25 @@
     
     cell.date = [self dateForIndexPath:indexPath];
     
-    if (self.delegate && [self.delegate conformsToProtocol:@protocol(AFHorizontalDayPickerDelegate)] && [self.delegate respondsToSelector:@selector(horizontalDayPicker:requestCustomizedCellFromCell:)]) {
-        [self.delegate horizontalDayPicker:self requestCustomizedCellFromCell:cell];
+    NSIndexPath *selectedIndexPath = [collectionView.indexPathsForSelectedItems firstObject];
+    cell.wasSelected = (selectedIndexPath && indexPath.row == selectedIndexPath.row);
+    
+    cell.active = [self isActiveDateAtIndexPath:indexPath];
+    
+    id responder = nil;
+    
+    if (self.delegate
+        && [self.delegate conformsToProtocol:@protocol(AFHorizontalDayPickerDelegate)]
+        && [self.delegate respondsToSelector:@selector(horizontalDayPicker:requestCustomizedCellFromCell:)]) {
+        
+        responder = self.delegate;
+        
     }else{
-        [cell.contentView.subviews makeObjectsPerformSelector:@selector(removeFromSuperview)];
-        
-        UILabel *dayNumber = [[UILabel alloc] initWithFrame:CGRectMake(.0f, .0f, cell.contentView.frame.size.width, cell.contentView.frame.size.height/3*2)];
-        
-        dayNumber.textAlignment = NSTextAlignmentCenter;
-        dayNumber.text = [NSString stringWithFormat:@"%@", @([[self dateForIndexPath:indexPath] mt_dayOfMonth])];
-        cell.dayNumber = dayNumber;
-        [cell.contentView addSubview:dayNumber];
-        
-        UILabel *dayName = [[UILabel alloc] initWithFrame:CGRectMake(.0f, cell.contentView.frame.size.height/3*2 - cell.contentView.frame.size.height/6, cell.contentView.frame.size.width, cell.contentView.frame.size.height/3)];
-        dayName.textAlignment = NSTextAlignmentCenter;
-        dayName.text = [NSString stringWithFormat:@"%@", [[self dateForIndexPath:indexPath] mt_stringFromDateWithFormat:@"EEE" localized:YES]];
-        cell.dayName = dayName;
-        [cell.contentView addSubview:dayName];
-        
-        if (![self isActiveDateAtIndexPath:indexPath]) {
-            [self setInactiveAppearanceWithCell:cell];
-        }else{
-            
-            NSIndexPath *selectedIndexPath = [collectionView.indexPathsForSelectedItems firstObject];
-            
-            if (selectedIndexPath && indexPath.row == selectedIndexPath.row) {
-                [self setSelectedAppearanceWithCell:cell];
-            }else{
-                [self setActiveAppearanceWithCell:cell];
-            }
-            
-        }
-        
+
+        responder = self;
     }
+    
+    [responder horizontalDayPicker:self requestCustomizedCellFromCell:cell];
     
     return cell;
 }
@@ -218,6 +204,36 @@
     
     cell.contentView.backgroundColor = (_backgroundSelectedColor)?:[UIColor colorWithRed:20.0f/255.0f green:128.0f/255.0f blue:255.0f/255.0f alpha:1.0f];
 
+}
+
+- (AFDayCell *)horizontalDayPicker:(AFHorizontalDayPicker *)picker requestCustomizedCellFromCell:(AFDayCell*)cell{
+    
+    [cell.contentView.subviews makeObjectsPerformSelector:@selector(removeFromSuperview)];
+    
+    UILabel *dayNumber = [[UILabel alloc] initWithFrame:CGRectMake(.0f, .0f, cell.contentView.frame.size.width, cell.contentView.frame.size.height/3*2)];
+    
+    dayNumber.textAlignment = NSTextAlignmentCenter;
+    dayNumber.text = [NSString stringWithFormat:@"%@", @([cell.date mt_dayOfMonth])];
+    cell.dayNumber = dayNumber;
+    [cell.contentView addSubview:dayNumber];
+    
+    UILabel *dayName = [[UILabel alloc] initWithFrame:CGRectMake(.0f, cell.contentView.frame.size.height/3*2 - cell.contentView.frame.size.height/6, cell.contentView.frame.size.width, cell.contentView.frame.size.height/3)];
+    dayName.textAlignment = NSTextAlignmentCenter;
+    dayName.text = [cell.date mt_stringFromDateWithFormat:@"EEE" localized:YES];
+    cell.dayName = dayName;
+    [cell.contentView addSubview:dayName];
+    
+    if (!cell.active) {
+        [self setInactiveAppearanceWithCell:cell];
+    }else{
+        if (cell.wasSelected) {
+            [self setSelectedAppearanceWithCell:cell];
+        }else{
+            [self setActiveAppearanceWithCell:cell];
+        }
+    }
+    
+    return cell;
 }
 
 #pragma mark - collectionView delegate -

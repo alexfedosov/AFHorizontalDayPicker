@@ -62,6 +62,8 @@
 
 @property (nonatomic, strong) UIColor *topAndBottomSeparatorsColor;
 
+@property (nonatomic, assign) BOOL animateScrolling;
+
 - (void)selectDate:(NSDate *)date animated:(BOOL)animated;
 - (void)selectTodayAnimated:(BOOL)animated;
 

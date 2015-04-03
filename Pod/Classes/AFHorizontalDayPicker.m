@@ -76,10 +76,8 @@
 
 - (void)configure{
     
-    AFDaysCollectionViewFlowLayout *layout=[[AFDaysCollectionViewFlowLayout alloc] init];
-    [layout setScrollDirection:UICollectionViewScrollDirectionHorizontal];
-    [layout setMinimumInteritemSpacing:.0f];
-    [layout setMinimumLineSpacing:.0f];
+    AFDaysCollectionViewFlowLayout *layout = [AFDaysCollectionViewFlowLayout new];
+    layout.needAnimate = self.animateScrolling;
     
     self.daysCollectionView = [[UICollectionView alloc] initWithFrame:CGRectMake(.0f, .5f, self.frame.size.width, self.frame.size.height - 1.0f)
                                                  collectionViewLayout:layout];
@@ -113,7 +111,15 @@
     [super layoutSubviews];
     
     self.daysCollectionView.frame = self.bounds;
+}
+
+- (void)setAnimateScrolling:(BOOL)animateScrolling{
+    _animateScrolling = animateScrolling;
     
+    AFDaysCollectionViewFlowLayout *layout = [AFDaysCollectionViewFlowLayout new];
+    layout.needAnimate = self.animateScrolling;
+    
+    [self.daysCollectionView setCollectionViewLayout:layout];
 }
 
 - (void)setTopAndBottomSeparatorsColor:(UIColor *)topAndBottomSeparatorsColor{
@@ -335,13 +341,13 @@
 
 - (CGSize)collectionView:(UICollectionView *)collectionView layout:(UICollectionViewLayout*)collectionViewLayout sizeForItemAtIndexPath:(NSIndexPath *)indexPath{
     
-    CGFloat width = self.frame.size.height;
+    CGFloat width = collectionView.frame.size.height;
     
     if (self.delegate && [self.delegate conformsToProtocol:@protocol(AFHorizontalDayPickerDelegate)]) {
         width = [self.delegate horizontalDayPicker:self widthForItemWithDate:[self dateForIndexPath:indexPath]];
     }
     
-    return CGSizeMake(width, self.frame.size.height);
+    return CGSizeMake(width, collectionView.frame.size.height);
 }
 
 #pragma mark - Public control methods-

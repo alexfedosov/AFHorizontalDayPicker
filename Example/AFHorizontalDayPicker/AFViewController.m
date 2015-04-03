@@ -25,9 +25,10 @@
     picker.startDate = [[NSDate date] mt_dateDaysBefore:14];
     picker.endDate = [[NSDate date] mt_dateDaysAfter:14];
     [picker selectTodayAnimated:NO];
-    picker.showSeparatorsBetweenCells = YES;
+    picker.showSeparatorsBetweenCells = NO;
     picker.showTopSeparator = YES;
     picker.showBottomSeparator = YES;
+    picker.animateScrolling = YES;
     [self.view addSubview:picker];
 }
 

@@ -110,7 +110,9 @@
 - (void)layoutSubviews{
     [super layoutSubviews];
     
-    self.daysCollectionView.frame = self.bounds;
+    self.daysCollectionView.frame = CGRectMake(.0f, .5f, self.frame.size.width, self.frame.size.height - 1.0f);
+    self.topSeparator.frame = CGRectMake(.0f, .0f, self.bounds.size.width, .5f);
+    self.bottomSeparator.frame = CGRectMake(.0f, self.bounds.size.height - 1.f, self.bounds.size.width, .5f);
 }
 
 - (void)setAnimateScrolling:(BOOL)animateScrolling{
